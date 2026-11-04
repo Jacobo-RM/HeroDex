@@ -1,0 +1,80 @@
+<section class="characters-container">
+
+  <nav class="universe-filter" aria-label="Filtrar por universo">
+    <button type="button"
+            class="uni-btn all"
+            [class.active]="selectedUniverse === null"
+            [attr.aria-pressed]="selectedUniverse === null"
+            (click)="selectedUniverse = null">
+      <span class="uni-text">TODOS</span>
+      <span class="uni-count">{{ characters.length }}</span>
+    </button>
+
+    @for (u of availableUniverses; track u) {
+      <button type="button"
+              class="uni-btn"
+              [class.active]="selectedUniverse === u"
+              [attr.aria-pressed]="selectedUniverse === u"
+              [attr.data-universe]="u"
+              [title]="universe[u]"
+              (click)="selectUniverse(u)">
+        @if (!brokenLogos.has(u)) {
+          <img class="uni-logo"
+               [src]="universeLogo[u]"
+               [alt]="universe[u]"
+               (error)="brokenLogos.add(u)" />
+        } @else {
+          <span class="uni-text">{{ universe[u] }}</span>
+        }
+        <span class="uni-count">{{ countOf(u) }}</span>
+      </button>
+    }
+  </nav>
+
+  @for (character of filteredCharacters; track character.id; let i = $index) {
+    <a class="comic-card"
+       [class.tilt-left]="i % 2 === 0"
+       [routerLink]="['/character', character.id]"
+       [attr.data-universe]="character.universe">
+
+      <div class="comic-media">
+        @if (character.image) {
+          <img [src]="character.image" [alt]="character.name" loading="lazy" />
+        } @else {
+          <div class="comic-placeholder">{{ character.name.charAt(0) }}</div>
+        }
+
+        <span class="burst">{{ universe[character.universe] }}</span>
+
+        <div class="comic-info">
+          <span class="stamp" [class.dead]="!character.isAlive">
+            {{ character.isAlive ? 'VIVO' : 'MUERTO' }}
+          </span>
+
+          <p class="info-real">{{ character.realName || 'Identidad desconocida' }}</p>
+
+          <ul class="info-list">
+            <li><b>Tipo:</b> {{ characterType[character.characterType] }}</li>
+            @if (character.publisher) {
+              <li><b>Editorial:</b> {{ character.publisher }}</li>
+            }
+            @if (character.firstAppearance) {
+              <li><b>1ª aparición:</b> {{ character.firstAppearance }}</li>
+            }
+            @if (character.occupation) {
+              <li><b>Ocupación:</b> {{ character.occupation }}</li>
+            }
+          </ul>
+
+          <span class="info-cta">¡VER FICHA!</span>
+        </div>
+      </div>
+
+      <div class="title-box">
+        <p class="agent-name">{{ character.name }}</p>
+      </div>
+    </a>
+  } @empty {
+    <p class="empty">¡Nada por aquí! No hay personajes con este filtro.</p>
+  }
+</section>

@@ -1,0 +1,69 @@
+<div class="characterdle-container">
+  <h1 class="title">HeroDex Characterdle</h1>
+  <p class="subtitle">¡Adivina el superhéroe secreto del día!</p>
+
+  <div *ngIf="hasWon" class="victory-card">
+    <h2>🎉 ¡Felicidades! Has acertado 🎉</h2>
+    <p>Vuelve mañana para un nuevo desafío.</p>
+  </div>
+
+  <div *ngIf="!hasWon" class="search-container">
+    <input 
+      type="text" 
+      [(ngModel)]="searchQuery" 
+      (input)="onSearchChange()" 
+      placeholder="Escribe el nombre de un personaje..."
+      class="search-input"
+    />
+    
+    <ul *ngIf="filteredSearchList.length > 0" class="search-results">
+      <li *ngFor="let item of filteredSearchList" (click).stop="selectCharacter(item)">
+        <img [src]="item.image" alt="{{item.name}}" class="dropdown-img" />
+        <span>{{ item.name }}</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="guesses-container" *ngIf="guesses.length > 0">
+    <div class="table-header">
+      <div class="cell-head">Personaje</div>
+      <div class="cell-head">Universo</div>
+      <div class="cell-head">Tipo</div>
+      <div class="cell-head">Editorial</div>
+      <div class="cell-head">Estado</div>
+      <div class="cell-head">Poderes</div>
+      <div class="cell-head">Equipos</div>
+    </div>
+
+    <div class="guess-row animate-pop" *ngFor="let guess of guesses">
+      <div class="cell character-cell">
+        <img [src]="guess.image" alt="{{guess.name}}" class="cell-img" />
+        <span class="char-name">{{ guess.name }}</span>
+      </div>
+
+      <div class="cell" [ngClass]="guess.universeStatus">
+        {{ guess.universeValue }}
+      </div>
+      
+      <div class="cell" [ngClass]="guess.characterTypeStatus">
+        {{ guess.characterTypeValue }}
+      </div>
+
+      <div class="cell" [ngClass]="guess.publisherStatus">
+        {{ guess.publisherValue }}
+      </div>
+
+      <div class="cell" [ngClass]="guess.isAliveStatus">
+        {{ guess.isAliveValue }}
+      </div>
+
+      <div class="cell scrollable-cell" [ngClass]="guess.powersStatus">
+        {{ guess.powersValue || 'Ninguno' }}
+      </div>
+
+      <div class="cell scrollable-cell" [ngClass]="guess.teamsStatus">
+        {{ guess.teamsValue || 'Ninguno' }}
+      </div>
+    </div>
+  </div>
+</div>

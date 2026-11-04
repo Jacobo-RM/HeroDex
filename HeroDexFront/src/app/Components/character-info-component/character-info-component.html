@@ -1,0 +1,122 @@
+<section class="info-page">
+
+  <a class="back-btn" routerLink="/characters">« VOLVER</a>
+
+  @if (loading) {
+    <p class="state">¡CARGANDO...!</p>
+  } @else if (error || !character) {
+    <div class="state">
+      <p>¡OH, NO! No se ha encontrado al personaje.</p>
+      <a class="back-btn" routerLink="/characters">« VOLVER</a>
+    </div>
+  } @else {
+    <article class="sheet" [attr.data-universe]="character.universe">
+
+      <header class="hero">
+        @if (character.banner) {
+          <img class="hero-banner" [src]="character.banner" [alt]="'Banner de ' + character.name" />
+        }
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <div class="portrait">
+            @if (character.image) {
+              <img [src]="character.image" [alt]="character.name" />
+            } @else {
+              <span class="portrait-placeholder">{{ character.name.charAt(0) }}</span>
+            }
+          </div>
+
+          <div class="hero-text">
+            <div class="tags">
+              <span class="burst">{{ universe[character.universe] }}</span>
+              <span class="stamp" [class.dead]="!character.isAlive">
+                {{ character.isAlive ? 'VIVO' : 'MUERTO' }}
+              </span>
+            </div>
+
+            <h1 class="title">{{ character.name }}</h1>
+            <p class="subtitle">{{ character.realName || 'Identidad desconocida' }}</p>
+
+            <span class="type-tag">{{ characterType[character.characterType] }}</span>
+          </div>
+
+          @if (character.logo) {
+            <img class="hero-logo" [src]="character.logo" [alt]="'Logo de ' + character.name" />
+          }
+        </div>
+      </header>
+
+      <div class="grid">
+
+        @if (character.description) {
+          <section class="panel bubble">
+            <h2 class="panel-title">HISTORIA</h2>
+            <p>{{ character.description }}</p>
+          </section>
+        }
+
+        <section class="panel">
+          <h2 class="panel-title">FICHA</h2>
+          <dl class="data">
+            <div><dt>Editorial</dt><dd>{{ character.publisher || '—' }}</dd></div>
+            <div><dt>1ª aparición</dt><dd>{{ character.firstAppearance || '—' }}</dd></div>
+            <div><dt>Ocupación</dt><dd>{{ character.occupation || '—' }}</dd></div>
+            <div><dt>Base</dt><dd>{{ character.baseOfOperations || '—' }}</dd></div>
+          </dl>
+
+          @if (character.aliases.length) {
+            <h3 class="mini-title">ALIAS</h3>
+            <ul class="chips">
+              @for (alias of character.aliases; track alias) {
+                <li>{{ alias }}</li>
+              }
+            </ul>
+          }
+        </section>
+
+        @if (character.powers.length) {
+          <section class="panel wide">
+            <h2 class="panel-title">PODERES</h2>
+            <div class="cards">
+              @for (power of character.powers; track power.name; let i = $index) {
+                <div class="mini-card" [class.tilt]="i % 2 === 0">
+                  @if (power.icon) {
+                    <img [src]="power.icon" [alt]="power.name" />
+                  }
+                  <h3>{{ power.name }}</h3>
+                  <p>{{ power.description }}</p>
+                </div>
+              }
+            </div>
+          </section>
+        }
+
+        @if (character.teams.length) {
+          <section class="panel wide">
+            <h2 class="panel-title">EQUIPOS</h2>
+            <div class="cards">
+              @for (team of character.teams; track team.name; let i = $index) {
+                <div class="mini-card" [class.tilt]="i % 2 !== 0">
+                  @if (team.logo) {
+                    <img [src]="team.logo" [alt]="team.name" />
+                  }
+                  <h3>{{ team.name }}</h3>
+                  <p>{{ team.description }}</p>
+                </div>
+              }
+            </div>
+          </section>
+        }
+
+        @if (character.video) {
+          <section class="panel wide">
+            <h2 class="panel-title">TRÁILER</h2>
+            <video class="video" [src]="character.video" controls preload="metadata"></video>
+          </section>
+        }
+
+      </div>
+    </article>
+  }
+</section>

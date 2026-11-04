@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&display=swap');
+
+:host {
+  display: block;
+  --ink: #111;
+  --paper: #fff7e0;
+  --yellow: #ffd60a;
+}
+
+.characters-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2.2rem 1.8rem;
+  padding: 2.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: var(--paper);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1.2px, transparent 1.4px);
+  background-size: 14px 14px;
+  min-height: 100vh;
+}
+
+.comic-card {
+  --accent: #8b90a3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 5px solid var(--ink);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: 8px 8px 0 var(--ink);
+  transform: rotate(1.2deg);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.comic-card.tilt-left {
+  transform: rotate(-1.2deg);
+}
+
+.comic-card:hover,
+.comic-card:focus-visible {
+  transform: rotate(0deg) translate(-4px, -4px) scale(1.03);
+  box-shadow: 14px 14px 0 var(--ink);
+  z-index: 2;
+  outline: none;
+}
+
+.comic-card[data-universe='0'] { --accent: #e62429; } 
+.comic-card[data-universe='1'] { --accent: #0476f2; } 
+.comic-card[data-universe='2'] { --accent: #f5c400; } 
+.comic-card[data-universe='3'] { --accent: #00c8ff; } 
+.comic-card[data-universe='4'] { --accent: #55040a; } 
+.comic-card[data-universe='5'] { --accent: #7b2cbf; }
+.comic-card[data-universe='6'] { --accent: #ff6d00; }
+.comic-card[data-universe='7'] { --accent: #2a9d8f; } 
+
+.comic-media {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-bottom: 5px solid var(--ink);
+  background-color: var(--accent);
+  background-image:
+    repeating-conic-gradient(
+      from 0deg at 50% 65%,
+      rgba(255, 255, 255, 0.2) 0deg 7deg,
+      transparent 7deg 14deg
+    ),
+    radial-gradient(
+      circle at 50% 65%,
+      color-mix(in srgb, var(--accent) 65%, #fff) 0%,
+      var(--accent) 50%,
+      color-mix(in srgb, var(--accent) 55%, #000) 100%
+    );
+}
+
+.comic-media::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35) 2.2px, transparent 2.7px);
+  background-size: 11px 11px;
+  -webkit-mask-image: linear-gradient(to top, #000 0%, transparent 75%);
+  mask-image: linear-gradient(to top, #000 0%, transparent 75%);
+  z-index: 0;
+}
+
+.comic-media img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  padding: 0.5rem 0.5rem 0;
+  box-sizing: border-box;
+  filter: drop-shadow(3px 0 0 var(--ink))
+          drop-shadow(-3px 0 0 var(--ink))
+          drop-shadow(0 -3px 0 var(--ink))
+          drop-shadow(0 3px 0 var(--ink));
+  transform-origin: bottom center;
+  transition: transform 0.3s ease;
+}
+
+.comic-card:hover .comic-media img,
+.comic-card:focus-visible .comic-media img {
+  transform: scale(1.08);
+}
+
+.comic-placeholder {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-family: 'Bangers', cursive;
+  font-size: 7rem;
+  color: #fff;
+  -webkit-text-stroke: 4px var(--ink);
+  paint-order: stroke fill;
+}
+
+.burst {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+  padding: 0.55rem 0.9rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  background: var(--yellow);
+  border: 3px solid var(--ink);
+  transform: rotate(-8deg);
+  clip-path: polygon(
+    0% 15%, 12% 0%, 28% 12%, 45% 0%, 62% 10%, 80% 0%, 100% 14%,
+    94% 45%, 100% 78%, 82% 100%, 62% 90%, 44% 100%, 26% 88%, 10% 100%, 0% 75%, 6% 45%
+  );
+  filter: drop-shadow(3px 3px 0 var(--ink));
+}
+
+.comic-info {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--yellow);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.18) 1.5px, transparent 2px);
+  background-size: 9px 9px;
+  border-top: 5px solid var(--ink);
+  transform: translateY(101%);
+  transition: transform 0.25s cubic-bezier(0.2, 0.9, 0.3, 1.2);
+}
+
+.comic-card:hover .comic-info,
+.comic-card:focus-visible .comic-info {
+  transform: translateY(0);
+}
+
+.stamp {
+  align-self: flex-start;
+  padding: 0.1rem 0.7rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: #1b9e4b;
+  border: 3px solid var(--ink);
+  transform: rotate(-4deg);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+
+.stamp.dead {
+  background: #d00000;
+}
+
+.info-real {
+  margin: 0.2rem 0 0;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+
+.info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.6rem 0.7rem;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: 10px;
+  font-family: 'Comic Neue', cursive;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.info-list li + li {
+  margin-top: 0.15rem;
+}
+
+.info-cta {
+  align-self: flex-end;
+  font-family: 'Bangers', cursive;
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background: var(--ink);
+  padding: 0.15rem 0.8rem;
+  transform: rotate(2deg);
+}
+
+.title-box {
+  padding: 0.6rem 0.8rem;
+  background: var(--yellow);
+  text-align: center;
+}
+
+.agent-name {
+  margin: 0;
+  font-family: 'Bangers', cursive;
+  font-size: 1.6rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.universe-filter {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.uni-btn {
+  --accent: #8b90a3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 96px;
+  height: 64px;
+  padding: 0.4rem 1rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+  background: #fff;
+  border: 4px solid var(--ink);
+  box-shadow: 5px 5px 0 var(--ink);
+  cursor: pointer;
+  transform: rotate(-1.5deg);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.uni-btn:nth-child(even) {
+  transform: rotate(1.5deg);
+}
+
+.uni-btn:hover,
+.uni-btn:focus-visible {
+  transform: rotate(0) translate(-2px, -2px);
+  box-shadow: 8px 8px 0 var(--ink);
+  outline: none;
+}
+
+.uni-btn.active {
+  background: var(--yellow);
+  transform: rotate(0) translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.uni-btn[data-universe]::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 7px;
+  background: var(--accent);
+  border-top: 3px solid var(--ink);
+}
+
+.uni-btn[data-universe='0'] { --accent: #e62429; }
+.uni-btn[data-universe='1'] { --accent: #0476f2; }
+.uni-btn[data-universe='2'] { --accent: #f5c400; }
+.uni-btn[data-universe='3'] { --accent: #00a6d6; }
+.uni-btn[data-universe='4'] { --accent: #c1121f; }
+.uni-btn[data-universe='5'] { --accent: #7b2cbf; }
+.uni-btn[data-universe='6'] { --accent: #ff6d00; }
+.uni-btn[data-universe='7'] { --accent: #2a9d8f; }
+
+.uni-logo {
+  max-width: 110px;
+  height: 100%;
+  max-height: 38px;
+  object-fit: contain;
+  margin-bottom: 6px; 
+}
+
+.uni-text {
+  text-transform: uppercase;
+}
+
+.uni-count {
+  position: absolute;
+  top: -14px;
+  right: -12px;
+  min-width: 26px;
+  padding: 0 0.35rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background: var(--ink);
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+}
+
+.uni-btn.active .uni-count {
+  background: var(--bad, #d00000);
+  border-color: var(--ink);
+}
+
+@media (max-width: 480px) {
+  .uni-btn {
+    min-width: 80px;
+    height: 56px;
+  }
+  .uni-logo {
+    max-width: 80px;
+    max-height: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .characters-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 1rem;
+    padding: 1.2rem;
+  }
+  .agent-name { font-size: 1.2rem; }
+  .info-list { font-size: 0.75rem; }
+}

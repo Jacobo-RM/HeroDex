@@ -1,0 +1,79 @@
+#####################################
+# .NET / ASP.NET Core
+#####################################
+
+bin/
+obj/
+publish/
+
+# User files
+*.user
+*.rsuser
+*.suo
+
+# NuGet
+packages/
+*.nupkg
+
+# Test Results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Secrets
+appsettings.Development.json
+secrets.json
+
+#####################################
+# Visual Studio / Rider / VS Code
+#####################################
+
+.vs/
+.vscode/
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+#####################################
+# Angular
+#####################################
+
+# Dependencies
+node_modules/
+
+# Angular cache
+.angular/
+
+# Build output
+dist/
+out-tsc/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (si contienen secretos)
+src/environments/environment.local.ts
+src/environments/environment.development.ts
+
+#####################################
+# OS Files
+#####################################
+
+.DS_Store
+Thumbs.db
+
+#####################################
+# Misc
+#####################################
+
+*.log
+*.tmp
+*.temp

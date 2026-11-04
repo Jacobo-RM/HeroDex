@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "name": "SpiderMan",
+    "realName": "Peter Parker",
+    "description": "Adolescente de Queens que gana poderes arácnidos tras la picadura de una araña radiactiva. Aprende que un gran poder conlleva una gran responsabilidad.",
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Amazing Fantasy #15 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Fotógrafo, científico",
+    "baseOfOperations": "Nueva York",
+    "aliases": ["Spidey", "Hombre Araña", "Trepamuros"],
+    "powers": [
+      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
+      { "id": 3, "name": "Sentido arácnido", "description": "Detecta el peligro antes de que ocurra.", "icon": "" },
+      { "id": 4, "name": "Trepar muros", "description": "Se adhiere a cualquier superficie.", "icon": "" },
+      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Torre de los Vengadores" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Iron Man",
+    "realName": "Tony Stark",
+    "description": "Genio multimillonario e inventor que construye una armadura de alta tecnología para proteger al mundo.",
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Tales of Suspense #39 (1963)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Empresario, inventor",
+    "baseOfOperations": "Malibú, Nueva York",
+    "aliases": ["Hombre de Hierro", "Shellhead"],
+    "powers": [
+      { "id": 6, "name": "Armadura tecnológica", "description": "Traje con vuelo, armas y fuerza aumentada.", "icon": "" },
+      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
+      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Torre de los Vengadores" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Wolverine",
+    "realName": "James Howlett (Logan)",
+    "description": "Mutante con sentidos agudos, factor de curación y un esqueleto reforzado con adamantium.",
+    "universe": "Marvel",
+    "characterType": "AntiHero",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Incredible Hulk #180 (1974)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Agente, mercenario, profesor",
+    "baseOfOperations": "Instituto Xavier, Westchester",
+    "aliases": ["Logan", "Lobezno", "Arma X"],
+    "powers": [
+      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
+      { "id": 8, "name": "Garras de adamantium", "description": "Garras retráctiles prácticamente indestructibles.", "icon": "" },
+      { "id": 10, "name": "Sentidos agudizados", "description": "Olfato, oído y vista sobrehumanos.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 2, "name": "X-Men", "description": "Mutantes que protegen a un mundo que los teme.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Instituto Xavier" },
+      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Torre de los Vengadores" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Deadpool",
+    "realName": "Wade Wilson",
+    "description": "Mercenario bocazas que rompe la cuarta pared. Su factor de curación lo hace casi imposible de matar.",
+    "universe": "Marvel",
+    "characterType": "Mercenary",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The New Mutants #98 (1991)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Mercenario",
+    "baseOfOperations": "Nueva York",
+    "aliases": ["Merc with a Mouth", "Wade", "Pool"],
+    "powers": [
+      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
+      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" }
+    ],
+    "teams": []
+  },
+  {
+    "id": 5,
+    "name": "Thanos",
+    "realName": "Thanos",
+    "description": "Titán de Eternia obsesionado con la muerte y el equilibrio del universo. Busca las Gemas del Infinito.",
+    "universe": "Marvel",
+    "characterType": "Villain",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Invincible Iron Man #55 (1973)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Conquistador",
+    "baseOfOperations": "Titán",
+    "aliases": ["El Titán Loco"],
+    "powers": [
+      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
+      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" },
+      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+    ],
+    "teams": []
+  },
+  {
+    "id": 6,
+    "name": "Batman",
+    "realName": "Bruce Wayne",
+    "description": "Millonario de Gotham que, tras presenciar el asesinato de sus padres, jura acabar con el crimen. Sin poderes, solo entrenamiento e ingenio.",
+    "universe": "DC",
+    "characterType": "Vigilante",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Detective Comics #27 (1939)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Empresario, detective",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": ["El Caballero Oscuro", "El Encapuchado", "Dark Knight"],
+    "powers": [
+      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
+      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
+      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "", "banner": "", "headquarters": "Atalaya" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Superman",
+    "realName": "Clark Kent (Kal-El)",
+    "description": "Último hijo de Krypton, criado en Smallville. Símbolo de esperanza para la humanidad.",
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Action Comics #1 (1938)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Periodista",
+    "baseOfOperations": "Metrópolis",
+    "aliases": ["El Hombre de Acero", "Kal-El", "Man of Steel"],
+    "powers": [
+      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
+      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
+      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
+      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "", "banner": "", "headquarters": "Atalaya" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Joker",
+    "realName": "Desconocido",
+    "description": "Criminal caótico y archienemigo de Batman. Su pasado cambia según quién lo cuente.",
+    "universe": "DC",
+    "characterType": "Villain",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Batman #1 (1940)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Criminal",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": ["El Príncipe Payaso del Crimen", "Red Hood"],
+    "powers": [
+      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
+      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+    ],
+    "teams": []
+  },
+  {
+    "id": 9,
+    "name": "Homelander",
+    "realName": "John",
+    "description": "Líder de Los Siete, un superhéroe aclamado por el público que oculta una personalidad violenta e inestable.",
+    "universe": "TheBoys",
+    "characterType": "Villain",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Boys #3 (2006)",
+    "publisher": "Dynamite Entertainment",
+    "isAlive": true,
+    "occupation": "Superhéroe corporativo",
+    "baseOfOperations": "Torre Vought, Nueva York",
+    "aliases": ["El Patriota"],
+    "powers": [
+      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
+      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
+      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
+      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 4, "name": "Los Siete", "description": "Los superhéroes más famosos de Vought International.", "universe": "TheBoys", "logo": "", "banner": "", "headquarters": "Torre Vought" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Invincible",
+    "realName": "Mark Grayson",
+    "description": "Hijo de Omni-Man que hereda poderes de su padre y debe decidir qué clase de héroe quiere ser.",
+    "universe": "Invincible",
+    "characterType": "Hero",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Invincible #1 (2003)",
+    "publisher": "Image Comics",
+    "isAlive": true,
+    "occupation": "Superhéroe, estudiante",
+    "baseOfOperations": "Chicago",
+    "aliases": ["Mark"],
+    "powers": [
+      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
+      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
+      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 5, "name": "Guardianes del Globo", "description": "Equipo de superhéroes que protege la Tierra.", "universe": "Invincible", "logo": "", "banner": "", "headquarters": "Guardians Headquarters" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Rorschach",
+    "realName": "Walter Kovacs",
+    "description": "Vigilante de moral inflexible que sigue luchando contra el crimen aunque esté prohibido.",
+    "universe": "Watchmen",
+    "characterType": "Vigilante",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": false,
+    "occupation": "Vigilante",
+    "baseOfOperations": "Nueva York",
+    "aliases": [],
+    "powers": [
+      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "", "banner": "", "headquarters": "Nueva York" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Doctor Manhattan",
+    "realName": "Jon Osterman",
+    "description": "Físico transformado en un ser casi omnipotente tras un accidente nuclear. Percibe el tiempo de forma no lineal.",
+    "universe": "Watchmen",
+    "characterType": "CosmicEntity",
+    "image": "",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Físico",
+    "baseOfOperations": "Marte",
+    "aliases": ["Jon", "Dr. Manhattan"],
+    "powers": [
+      { "id": 16, "name": "Manipulación de la materia", "description": "Controla la materia a nivel atómico.", "icon": "" },
+      { "id": 17, "name": "Omnisciencia temporal", "description": "Percibe pasado, presente y futuro a la vez.", "icon": "" },
+      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" }
+    ],
+    "teams": [
+      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "", "banner": "", "headquarters": "Nueva York" }
+    ]
+  }
+]
