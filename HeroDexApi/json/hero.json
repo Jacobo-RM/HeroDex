@@ -1,902 +1,2619 @@
 [
   {
-    "id": 1, "name": "SpiderMan", "realName": "Peter Parker",
+    "id": 1,
+    "name": "SpiderMan",
+    "realName": "Peter Parker",
     "description": "Adolescente de Queens que gana poderes arácnidos tras la picadura de una araña radiactiva. Aprende que un gran poder conlleva una gran responsabilidad.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://cdn.marvel.com/content/2x/asm1000_previewa.webp", "video": "",
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://cdn.marvel.com/content/2x/asm1000_previewa.webp",
+    "video": "",
     "logo": "https://static.freepnglogo.com/images/all_img/1720116106spiderman-logo-png-image-hd.png",
-    "banner": "https://images.alphacoders.com/108/thumb-1920-1080693.jpg",
-    "firstAppearance": "Amazing Fantasy #15 (1962)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Fotógrafo, científico", "baseOfOperations": "Nueva York",
-    "aliases": ["Spidey", "Hombre Araña", "Trepamuros"],
+    "banner": "https://i.pinimg.com/originals/72/2e/d1/722ed1cbed78c460b5f081dbc42a61d5.gif",
+    "firstAppearance": "Amazing Fantasy #15 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Fotógrafo, científico",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Spidey",
+      "Hombre Araña",
+      "Trepamuros"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 3, "name": "Sentido arácnido", "description": "Detecta el peligro antes de que ocurra.", "icon": "" },
-      { "id": 4, "name": "Trepar muros", "description": "Se adhiere a cualquier superficie.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 3,
+        "name": "Sentido arácnido",
+        "description": "Detecta el peligro antes de que ocurra.",
+        "icon": ""
+      },
+      {
+        "id": 4,
+        "name": "Trepar muros",
+        "description": "Se adhiere a cualquier superficie.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png"
+      }
     ]
   },
   {
-    "id": 2, "name": "Iron Man", "realName": "Tony Stark",
+    "id": 2,
+    "name": "Iron Man",
+    "realName": "Tony Stark",
     "description": "Genio multimillonario e inventor que construye una armadura de alta tecnología para proteger al mundo.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://i.imgur.com/qzv8Gka.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Tales of Suspense #39 (1963)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Empresario, inventor", "baseOfOperations": "Malibú, Nueva York",
-    "aliases": ["Hombre de Hierro", "Shellhead"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://i.imgur.com/qzv8Gka.jpg",
+    "video": "",
+    "logo": "https://www.freelogovectors.net/wp-content/uploads/2023/10/iron-man-01-freelogovectors.net_.png",
+    "banner": "https://i.pinimg.com/originals/da/ba/e9/dabae94876c34f937db54c30ea7a4693.gif",
+    "firstAppearance": "Tales of Suspense #39 (1963)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Empresario, inventor",
+    "baseOfOperations": "Malibú, Nueva York",
+    "aliases": [
+      "Hombre de Hierro",
+      "Shellhead"
+    ],
     "powers": [
-      { "id": 6, "name": "Armadura tecnológica", "description": "Traje con vuelo, armas y fuerza aumentada.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 6,
+        "name": "Armadura tecnológica",
+        "description": "Traje con vuelo, armas y fuerza aumentada.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 3, "name": "Wolverine", "realName": "James Howlett (Logan)",
+    "id": 3,
+    "name": "Wolverine",
+    "realName": "James Howlett (Logan)",
     "description": "Mutante con sentidos agudos, factor de curación y un esqueleto reforzado con adamantium.",
-    "universe": "Marvel", "characterType": "AntiHero",
-    "image": "https://cdn.marvel.com/content/2x/intro_wolvrevenge2024002.webp", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Incredible Hulk #180 (1974)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Agente, mercenario, profesor", "baseOfOperations": "Instituto Xavier, Westchester",
-    "aliases": ["Logan", "Lobezno", "Arma X"],
+    "universe": "Marvel",
+    "characterType": "AntiHero",
+    "image": "https://cdn.marvel.com/content/2x/intro_wolvrevenge2024002.webp",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/65/c5/c2/65c5c268f78cd079491800321f1fd049.gif",
+    "firstAppearance": "The Incredible Hulk #180 (1974)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Agente, mercenario, profesor",
+    "baseOfOperations": "Instituto Xavier, Westchester",
+    "aliases": [
+      "Logan",
+      "Lobezno",
+      "Arma X"
+    ],
     "powers": [
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
-      { "id": 8, "name": "Garras de adamantium", "description": "Garras retráctiles prácticamente indestructibles.", "icon": "" },
-      { "id": 10, "name": "Sentidos agudizados", "description": "Olfato, oído y vista sobrehumanos.", "icon": "" }
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      },
+      {
+        "id": 8,
+        "name": "Garras de adamantium",
+        "description": "Garras retráctiles prácticamente indestructibles.",
+        "icon": ""
+      },
+      {
+        "id": 10,
+        "name": "Sentidos agudizados",
+        "description": "Olfato, oído y vista sobrehumanos.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 2, "name": "X-Men", "description": "Mutantes que protegen a un mundo que los teme.", "universe": "Marvel", "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png", "banner": "", "headquarters": "Instituto Xavier" },
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 2,
+        "name": "X-Men",
+        "description": "Mutantes que protegen a un mundo que los teme.",
+        "universe": "Marvel",
+        "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png",
+        "banner": "",
+        "headquarters": "Instituto Xavier"
+      },
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 4, "name": "Deadpool", "realName": "Wade Wilson",
+    "id": 4,
+    "name": "Deadpool",
+    "realName": "Wade Wilson",
     "description": "Mercenario bocazas que rompe la cuarta pared. Su factor de curación lo hace casi imposible de matar.",
-    "universe": "Marvel", "characterType": "Mercenary",
+    "universe": "Marvel",
+    "characterType": "Mercenary",
     "image": "https://static.wikia.nocookie.net/marveldatabase/images/d/d8/Deadpool_Vol_9_1_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20231219070549",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The New Mutants #98 (1991)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Mercenario", "baseOfOperations": "Nueva York",
-    "aliases": ["Merc with a Mouth", "Wade", "Pool"],
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/8102484f47552fe0768f7bb022c0e8c3/2ea639d072f1e03e-52/s540x810/57466e0f4c94060f8abccefb8477815674937821.gif",
+    "firstAppearance": "The New Mutants #98 (1991)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Mercenario",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Merc with a Mouth",
+      "Wade",
+      "Pool"
+    ],
     "powers": [
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" }
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      },
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 5, "name": "Thanos", "realName": "Thanos",
+    "id": 5,
+    "name": "Thanos",
+    "realName": "Thanos",
     "description": "Titán de Eternia obsesionado con la muerte y el equilibrio del universo. Busca las Gemas del Infinito.",
-    "universe": "Marvel", "characterType": "Villain",
+    "universe": "Marvel",
+    "characterType": "Villain",
     "image": "https://comicvine.gamespot.com/a/uploads/scale_medium/11138/111389575/7672314-5515418701-76722.jpg",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Invincible Iron Man #55 (1973)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Conquistador", "baseOfOperations": "Titán",
-    "aliases": ["El Titán Loco"],
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/a1/d3/49/a1d349bb1c84f076c046bb130248fc47.gif",
+    "firstAppearance": "The Invincible Iron Man #55 (1973)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Conquistador",
+    "baseOfOperations": "Titán",
+    "aliases": [
+      "El Titán Loco"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 6, "name": "Batman", "realName": "Bruce Wayne",
+    "id": 6,
+    "name": "Batman",
+    "realName": "Bruce Wayne",
     "description": "Millonario de Gotham que, tras presenciar el asesinato de sus padres, jura acabar con el crimen. Sin poderes, solo entrenamiento e ingenio.",
-    "universe": "DC", "characterType": "Vigilante",
-    "image": "https://static.tvtropes.org/pmwiki/pub/images/batman86.png", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Detective Comics #27 (1939)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Empresario, detective", "baseOfOperations": "Ciudad Gótica",
-    "aliases": ["El Caballero Oscuro", "El Encapuchado", "Dark Knight"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/batman86.png",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/f0/a4/43/f0a44396dcb2648d08804bb9a35edf58.gif",
+    "firstAppearance": "Detective Comics #27 (1939)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Empresario, detective",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": [
+      "El Caballero Oscuro",
+      "El Encapuchado",
+      "Dark Knight"
+    ],
     "powers": [
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 7, "name": "Superman", "realName": "Clark Kent (Kal-El)",
+    "id": 7,
+    "name": "Superman",
+    "realName": "Clark Kent (Kal-El)",
     "description": "Último hijo de Krypton, criado en Smallville. Símbolo de esperanza para la humanidad.",
-    "universe": "DC", "characterType": "Hero",
+    "universe": "DC",
+    "characterType": "Hero",
     "image": "https://static.wikia.nocookie.net/marvel_dc/images/0/08/Summer_of_Superman_Special_Vol_1_1_Textless.jpg/revision/latest?cb=20250416152204",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Action Comics #1 (1938)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Periodista", "baseOfOperations": "Metrópolis",
-    "aliases": ["El Hombre de Acero", "Kal-El", "Man of Steel"],
+    "video": "",
+    "logo": "",
+    "banner": "https://i.redd.it/fflircze22of1.gif",
+    "firstAppearance": "Action Comics #1 (1938)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Periodista",
+    "baseOfOperations": "Metrópolis",
+    "aliases": [
+      "El Hombre de Acero",
+      "Kal-El",
+      "Man of Steel"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 15,
+        "name": "Visión de calor",
+        "description": "Proyecta calor intenso con los ojos.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 8, "name": "Joker", "realName": "Desconocido",
+    "id": 8,
+    "name": "Joker",
+    "realName": "Desconocido",
     "description": "Criminal caótico y archienemigo de Batman. Su pasado cambia según quién lo cuente.",
-    "universe": "DC", "characterType": "Villain",
+    "universe": "DC",
+    "characterType": "Villain",
     "image": "https://static.wikia.nocookie.net/villains/images/1/1c/Batman_Three_Jokers_Vol_1_1_Textless.jpg/revision/latest?cb=20200901005001",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Batman #1 (1940)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Criminal", "baseOfOperations": "Ciudad Gótica",
-    "aliases": ["El Príncipe Payaso del Crimen", "Red Hood"],
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/dd/2b/1b/dd2b1b0726f974185deadef2c6276ad7.gif",
+    "firstAppearance": "Batman #1 (1940)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Criminal",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": [
+      "El Príncipe Payaso del Crimen",
+      "Red Hood"
+    ],
     "powers": [
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 9, "name": "Homelander", "realName": "John",
+    "id": 9,
+    "name": "Homelander",
+    "realName": "John",
     "description": "Líder de Los Siete, un superhéroe aclamado por el público que oculta una personalidad violenta e inestable.",
-    "universe": "TheBoys", "characterType": "Villain",
+    "universe": "TheBoys",
+    "characterType": "Villain",
     "image": "https://static.wikia.nocookie.net/versus-compendium/images/6/6b/Homelander.jpeg/revision/latest?cb=20200805024707",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Boys #3 (2006)", "publisher": "Dynamite Entertainment", "isAlive": true,
-    "occupation": "Superhéroe corporativo", "baseOfOperations": "Torre Vought, Nueva York",
-    "aliases": ["El Patriota"],
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Boys #3 (2006)",
+    "publisher": "Dynamite Entertainment",
+    "isAlive": true,
+    "occupation": "Superhéroe corporativo",
+    "baseOfOperations": "Torre Vought, Nueva York",
+    "aliases": [
+      "El Patriota"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 15,
+        "name": "Visión de calor",
+        "description": "Proyecta calor intenso con los ojos.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 4, "name": "Los Siete", "description": "Los superhéroes más famosos de Vought International.", "universe": "TheBoys", "logo": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1F83G8C2ARO7P/6e23e97bf55c729ee81a8d1c71fd5724.w800.h800.jpg", "banner": "", "headquarters": "Torre Vought" }
+      {
+        "id": 4,
+        "name": "Los Siete",
+        "description": "Los superhéroes más famosos de Vought International.",
+        "universe": "TheBoys",
+        "logo": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1F83G8C2ARO7P/6e23e97bf55c729ee81a8d1c71fd5724.w800.h800.jpg",
+        "banner": "",
+        "headquarters": "Torre Vought"
+      }
     ]
   },
   {
-    "id": 10, "name": "Invincible", "realName": "Mark Grayson",
+    "id": 10,
+    "name": "Invincible",
+    "realName": "Mark Grayson",
     "description": "Hijo de Omni-Man que hereda poderes de su padre y debe decidir qué clase de héroe quiere ser.",
-    "universe": "Invincible", "characterType": "Hero",
+    "universe": "Invincible",
+    "characterType": "Hero",
     "image": "https://static.wikia.nocookie.net/superheroes/images/b/bf/Invincible.jpg/revision/latest?cb=20140703215855",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Invincible #1 (2003)", "publisher": "Image Comics", "isAlive": true,
-    "occupation": "Superhéroe, estudiante", "baseOfOperations": "Chicago",
-    "aliases": ["Mark"],
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Invincible #1 (2003)",
+    "publisher": "Image Comics",
+    "isAlive": true,
+    "occupation": "Superhéroe, estudiante",
+    "baseOfOperations": "Chicago",
+    "aliases": [
+      "Mark"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 5, "name": "Guardianes del Globo", "description": "Equipo de superhéroes que protege la Tierra.", "universe": "Invincible", "logo": "", "banner": "", "headquarters": "Guardians Headquarters" }
+      {
+        "id": 5,
+        "name": "Guardianes del Globo",
+        "description": "Equipo de superhéroes que protege la Tierra.",
+        "universe": "Invincible",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Guardians Headquarters"
+      }
     ]
   },
   {
-    "id": 11, "name": "Rorschach", "realName": "Walter Kovacs",
+    "id": 11,
+    "name": "Rorschach",
+    "realName": "Walter Kovacs",
     "description": "Vigilante de moral inflexible que sigue luchando contra el crimen aunque esté prohibido.",
-    "universe": "Watchmen", "characterType": "Vigilante",
+    "universe": "Watchmen",
+    "characterType": "Vigilante",
     "image": "https://images.squarespace-cdn.com/content/v1/5df2b129aac1414fe34f3901/dff30cdc-ddbb-440d-ab35-aa3c5d301623/Rorschach+04.jpg",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Watchmen #1 (1986)", "publisher": "DC Comics", "isAlive": false,
-    "occupation": "Vigilante", "baseOfOperations": "Nueva York",
+    "video": "",
+    "logo": "",
+    "banner": "https://images.steamusercontent.com/ugc/573440518205824991/A46DDEEAA680C469736E40229B2724E47F345FC3/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": false,
+    "occupation": "Vigilante",
+    "baseOfOperations": "Nueva York",
     "aliases": [],
     "powers": [
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" }
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp", "banner": "", "headquarters": "Nueva York" }
+      {
+        "id": 6,
+        "name": "Watchmen",
+        "description": "Grupo de vigilantes enmascarados retirados por ley.",
+        "universe": "Watchmen",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp",
+        "banner": "",
+        "headquarters": "Nueva York"
+      }
     ]
   },
   {
-    "id": 12, "name": "Doctor Manhattan", "realName": "Jon Osterman",
+    "id": 12,
+    "name": "Doctor Manhattan",
+    "realName": "Jon Osterman",
     "description": "Físico transformado en un ser casi omnipotente tras un accidente nuclear. Percibe el tiempo de forma no lineal.",
-    "universe": "Watchmen", "characterType": "CosmicEntity",
+    "universe": "Watchmen",
+    "characterType": "CosmicEntity",
     "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/16309072/IMG_7C6921239657_1.jpeg",
-    "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Watchmen #1 (1986)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Físico", "baseOfOperations": "Marte",
-    "aliases": ["Jon", "Dr. Manhattan"],
+    "video": "",
+    "logo": "",
+    "banner": "https://giffiles.alphacoders.com/207/207467.gif",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Físico",
+    "baseOfOperations": "Marte",
+    "aliases": [
+      "Jon",
+      "Dr. Manhattan"
+    ],
     "powers": [
-      { "id": 16, "name": "Manipulación de la materia", "description": "Controla la materia a nivel atómico.", "icon": "" },
-      { "id": 17, "name": "Omnisciencia temporal", "description": "Percibe pasado, presente y futuro a la vez.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" }
+      {
+        "id": 16,
+        "name": "Manipulación de la materia",
+        "description": "Controla la materia a nivel atómico.",
+        "icon": ""
+      },
+      {
+        "id": 17,
+        "name": "Omnisciencia temporal",
+        "description": "Percibe pasado, presente y futuro a la vez.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp", "banner": "", "headquarters": "Nueva York" }
+      {
+        "id": 6,
+        "name": "Watchmen",
+        "description": "Grupo de vigilantes enmascarados retirados por ley.",
+        "universe": "Watchmen",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp",
+        "banner": "",
+        "headquarters": "Nueva York"
+      }
     ]
   },
   {
-    "id": 13, "name": "Hulk", "realName": "Bruce Banner",
+    "id": 13,
+    "name": "Hulk",
+    "realName": "Bruce Banner",
     "description": "Científico que, tras una explosión de rayos gamma, se transforma en un gigante verde cuya fuerza crece con su ira.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:240,cw:1440,ch:1080,q:80,w:1440/fd7N5QVWJxaL4Y7SJj5TRg.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Incredible Hulk #1 (1962)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Físico nuclear", "baseOfOperations": "Variable",
-    "aliases": ["Goliat Esmeralda", "El Increíble Hulk"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:240,cw:1440,ch:1080,q:80,w:1440/fd7N5QVWJxaL4Y7SJj5TRg.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/ea6e16b542f02b8866777157d977f51f/tumblr_p6ww02fJ441u6ylrxo2_r1_500.gif",
+    "firstAppearance": "The Incredible Hulk #1 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Físico nuclear",
+    "baseOfOperations": "Variable",
+    "aliases": [
+      "Goliat Esmeralda",
+      "El Increíble Hulk"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 14, "name": "Thor", "realName": "Thor Odinson",
+    "id": 14,
+    "name": "Thor",
+    "realName": "Thor Odinson",
     "description": "Dios asgardiano del trueno que empuña el martillo Mjolnir y protege tanto Asgard como la Tierra.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b2/Thor_Vol_3_1_Textless.jpg/revision/latest/scale-to-width-down/732?cb=20090525221746", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Journey into Mystery #83 (1962)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Dios, rey de Asgard", "baseOfOperations": "Asgard",
-    "aliases": ["Dios del Trueno", "Donald Blake"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b2/Thor_Vol_3_1_Textless.jpg/revision/latest/scale-to-width-down/732?cb=20090525221746",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/9c/33/19/9c33192f83a3a3010723f2943bb1c137.gif",
+    "firstAppearance": "Journey into Mystery #83 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Dios, rey de Asgard",
+    "baseOfOperations": "Asgard",
+    "aliases": [
+      "Dios del Trueno",
+      "Donald Blake"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 22, "name": "Control del clima", "description": "Invoca tormentas, rayos y vendavales.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 22,
+        "name": "Control del clima",
+        "description": "Invoca tormentas, rayos y vendavales.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 15, "name": "Capitán América", "realName": "Steve Rogers",
+    "id": 15,
+    "name": "Capitán América",
+    "realName": "Steve Rogers",
     "description": "Soldado mejorado por el suero del supersoldado durante la Segunda Guerra Mundial. Líder nato y símbolo de integridad.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/britishcomics/images/0/0e/CaptainAmericaStevenRogersDavidMarquezAvengersUniverse.jpg/revision/latest?cb=20191105200656", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Captain America Comics #1 (1941)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Soldado, líder", "baseOfOperations": "Brooklyn, Nueva York",
-    "aliases": ["Cap", "El Centinela de la Libertad"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/britishcomics/images/0/0e/CaptainAmericaStevenRogersDavidMarquezAvengersUniverse.jpg/revision/latest?cb=20191105200656",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/63/a6/42/63a6422be15fe6b05eea1fae073c5fd8.gif",
+    "firstAppearance": "Captain America Comics #1 (1941)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Soldado, líder",
+    "baseOfOperations": "Brooklyn, Nueva York",
+    "aliases": [
+      "Cap",
+      "El Centinela de la Libertad"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 16, "name": "Viuda Negra", "realName": "Natasha Romanoff",
+    "id": 16,
+    "name": "Viuda Negra",
+    "realName": "Natasha Romanoff",
     "description": "Espía rusa de élite que cambia de bando y se convierte en una de las agentes más letales de los Vengadores.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://i.ebayimg.com/images/g/YncAAOSwWVNham5G/s-l1200.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Tales of Suspense #52 (1964)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Espía, agente de S.H.I.E.L.D.", "baseOfOperations": "Nueva York",
-    "aliases": ["Black Widow", "Natalia Romanova"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://i.ebayimg.com/images/g/YncAAOSwWVNham5G/s-l1200.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://mandatory.com/wp-content/uploads/sites/10/2018/06/giphy-19.gif",
+    "firstAppearance": "Tales of Suspense #52 (1964)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Espía, agente de S.H.I.E.L.D.",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Black Widow",
+      "Natalia Romanova"
+    ],
     "powers": [
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 17, "name": "Pantera Negra", "realName": "T'Challa",
+    "id": 17,
+    "name": "Pantera Negra",
+    "realName": "T'Challa",
     "description": "Rey de Wakanda y protector de la nación más avanzada del mundo, potenciado por la hierba en forma de corazón.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15754687/BLAP2016001_DC11.0.0.1494561755.jpg?quality=90&strip=all&crop=0,28.315881326353,100,43.368237347295", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Fantastic Four #52 (1966)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Rey de Wakanda", "baseOfOperations": "Wakanda",
-    "aliases": ["Black Panther", "Rey de Wakanda"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15754687/BLAP2016001_DC11.0.0.1494561755.jpg?quality=90&strip=all&crop=0,28.315881326353,100,43.368237347295",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/42/37/4c/42374c6c7ea95c0d51ae293271cf8470.gif",
+    "firstAppearance": "Fantastic Four #52 (1966)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Rey de Wakanda",
+    "baseOfOperations": "Wakanda",
+    "aliases": [
+      "Black Panther",
+      "Rey de Wakanda"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 10, "name": "Sentidos agudizados", "description": "Olfato, oído y vista sobrehumanos.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 10,
+        "name": "Sentidos agudizados",
+        "description": "Olfato, oído y vista sobrehumanos.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 18, "name": "Doctor Strange", "realName": "Stephen Strange",
+    "id": 18,
+    "name": "Doctor Strange",
+    "realName": "Stephen Strange",
     "description": "Neurocirujano arrogante que, tras un accidente, se convierte en el Hechicero Supremo y protege la realidad de amenazas místicas.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://i.redd.it/o2g7uros87t81.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Strange Tales #110 (1963)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Hechicero Supremo, neurocirujano", "baseOfOperations": "Sanctum Sanctorum, Nueva York",
-    "aliases": ["Hechicero Supremo", "Doctor Extraño"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://i.redd.it/o2g7uros87t81.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://giffiles.alphacoders.com/214/214285.gif",
+    "firstAppearance": "Strange Tales #110 (1963)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Hechicero Supremo, neurocirujano",
+    "baseOfOperations": "Sanctum Sanctorum, Nueva York",
+    "aliases": [
+      "Hechicero Supremo",
+      "Doctor Extraño"
+    ],
     "powers": [
-      { "id": 21, "name": "Magia", "description": "Domina hechizos, portales y otras dimensiones.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 21,
+        "name": "Magia",
+        "description": "Domina hechizos, portales y otras dimensiones.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 19, "name": "Capitana Marvel", "realName": "Carol Danvers",
+    "id": 19,
+    "name": "Capitana Marvel",
+    "realName": "Carol Danvers",
     "description": "Ex piloto de la Fuerza Aérea que adquiere poderes cósmicos tras una explosión de energía Kree.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://i.redd.it/t3a1epygj48e1.jpeg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Marvel Super-Heroes #13 (1968)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Piloto, agente espacial", "baseOfOperations": "Nueva York, espacio exterior",
-    "aliases": ["Captain Marvel", "Ms. Marvel", "Binaria"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://i.redd.it/t3a1epygj48e1.jpeg",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/21d2ec025c6104a93badf0986ff9d51b/f443b20c59b2a06c-2d/s540x810/642ef8032ec91447eb343ffb798f66bf09cb8572.gif",
+    "firstAppearance": "Marvel Super-Heroes #13 (1968)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Piloto, agente espacial",
+    "baseOfOperations": "Nueva York, espacio exterior",
+    "aliases": [
+      "Captain Marvel",
+      "Ms. Marvel",
+      "Binaria"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 23, "name": "Poder cósmico", "description": "Absorbe y proyecta energía a escala estelar.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 23,
+        "name": "Poder cósmico",
+        "description": "Absorbe y proyecta energía a escala estelar.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 20, "name": "Loki", "realName": "Loki Laufeyson",
+    "id": 20,
+    "name": "Loki",
+    "realName": "Loki Laufeyson",
     "description": "Dios del engaño y hermano adoptivo de Thor. Maestro de la manipulación y las ilusiones.",
-    "universe": "Marvel", "characterType": "Villain",
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/a/a2/Loki_Laufeyson_%28Earth-616%29_from_Thor_Vol_3_12_0001.jpg/revision/latest/scale-to-width-down/1200?cb=20201011071529", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Journey into Mystery #85 (1962)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Dios del engaño", "baseOfOperations": "Asgard",
-    "aliases": ["Dios del Engaño", "Loki de Asgard"],
+    "universe": "Marvel",
+    "characterType": "Villain",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/a/a2/Loki_Laufeyson_%28Earth-616%29_from_Thor_Vol_3_12_0001.jpg/revision/latest/scale-to-width-down/1200?cb=20201011071529",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/93/2c/b2/932cb280920e5860842426e33998827f.gif",
+    "firstAppearance": "Journey into Mystery #85 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Dios del engaño",
+    "baseOfOperations": "Asgard",
+    "aliases": [
+      "Dios del Engaño",
+      "Loki de Asgard"
+    ],
     "powers": [
-      { "id": 21, "name": "Magia", "description": "Domina hechizos, portales y otras dimensiones.", "icon": "" },
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 21,
+        "name": "Magia",
+        "description": "Domina hechizos, portales y otras dimensiones.",
+        "icon": ""
+      },
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 21, "name": "Magneto", "realName": "Max Eisenhardt (Erik Lehnsherr)",
+    "id": 21,
+    "name": "Magneto",
+    "realName": "Max Eisenhardt (Erik Lehnsherr)",
     "description": "Superviviente del Holocausto y mutante que controla el magnetismo. Cree que los mutantes deben imponerse a la humanidad.",
-    "universe": "Marvel", "characterType": "Villain",
-    "image": "https://i.redd.it/si5mp3joynpb1.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "X-Men #1 (1963)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Líder revolucionario", "baseOfOperations": "Genosha, Asteroide M",
-    "aliases": ["Erik Lehnsherr", "Max Eisenhardt"],
+    "universe": "Marvel",
+    "characterType": "Villain",
+    "image": "https://i.redd.it/si5mp3joynpb1.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/b6/ca/18/b6ca1836093c13168971a5a0d1234c15.gif",
+    "firstAppearance": "X-Men #1 (1963)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Líder revolucionario",
+    "baseOfOperations": "Genosha, Asteroide M",
+    "aliases": [
+      "Erik Lehnsherr",
+      "Max Eisenhardt"
+    ],
     "powers": [
-      { "id": 36, "name": "Magnetismo", "description": "Controla campos magnéticos y todo metal.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 36,
+        "name": "Magnetismo",
+        "description": "Controla campos magnéticos y todo metal.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 10, "name": "Hermandad de Mutantes", "description": "Mutantes que luchan por la supremacía mutante.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Variable" }
+      {
+        "id": 10,
+        "name": "Hermandad de Mutantes",
+        "description": "Mutantes que luchan por la supremacía mutante.",
+        "universe": "Marvel",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Variable"
+      }
     ]
   },
   {
-    "id": 22, "name": "Cíclope", "realName": "Scott Summers",
+    "id": 22,
+    "name": "Cíclope",
+    "realName": "Scott Summers",
     "description": "Líder de los X-Men. Sus ojos proyectan rayos de energía que solo puede contener con gafas de cuarzo rubí.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/8/89/X-Men_Vol_7_10_Textless.jpg/revision/latest?cb=20250202202519", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "X-Men #1 (1963)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Líder de los X-Men", "baseOfOperations": "Instituto Xavier, Westchester",
-    "aliases": ["Cyclops", "Slim"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/8/89/X-Men_Vol_7_10_Textless.jpg/revision/latest?cb=20250202202519",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.namu.wiki/i/H2iXKqaptqckLYz_VVyoNmlhSxxeJYaXFGtGfKtFhes7jtqBcq5pdaAjxT_nLtPNbB8W-ASUkqI3nHoCw5v_8w.gif",
+    "firstAppearance": "X-Men #1 (1963)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Líder de los X-Men",
+    "baseOfOperations": "Instituto Xavier, Westchester",
+    "aliases": [
+      "Cyclops",
+      "Slim"
+    ],
     "powers": [
-      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" }
+      {
+        "id": 15,
+        "name": "Visión de calor",
+        "description": "Proyecta calor intenso con los ojos.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 2, "name": "X-Men", "description": "Mutantes que protegen a un mundo que los teme.", "universe": "Marvel", "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png", "banner": "", "headquarters": "Instituto Xavier" }
+      {
+        "id": 2,
+        "name": "X-Men",
+        "description": "Mutantes que protegen a un mundo que los teme.",
+        "universe": "Marvel",
+        "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png",
+        "banner": "",
+        "headquarters": "Instituto Xavier"
+      }
     ]
   },
   {
-    "id": 23, "name": "Tormenta", "realName": "Ororo Munroe",
+    "id": 23,
+    "name": "Tormenta",
+    "realName": "Ororo Munroe",
     "description": "Mutante africana con control total sobre el clima. Una de las líderes más respetadas de los X-Men.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/x-men/images/4/40/Fearless_Storm.jpg/revision/latest/scale-to-width-down/1200?cb=20220626061204", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Giant-Size X-Men #1 (1975)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Líder de los X-Men, reina de Wakanda", "baseOfOperations": "Instituto Xavier, Westchester",
-    "aliases": ["Storm", "Ororo"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/x-men/images/4/40/Fearless_Storm.jpg/revision/latest/scale-to-width-down/1200?cb=20220626061204",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/c6/3a/15/c63a155a2d1b124ec4322b79b527a757.gif",
+    "firstAppearance": "Giant-Size X-Men #1 (1975)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Líder de los X-Men, reina de Wakanda",
+    "baseOfOperations": "Instituto Xavier, Westchester",
+    "aliases": [
+      "Storm",
+      "Ororo"
+    ],
     "powers": [
-      { "id": 22, "name": "Control del clima", "description": "Invoca tormentas, rayos y vendavales.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" }
+      {
+        "id": 22,
+        "name": "Control del clima",
+        "description": "Invoca tormentas, rayos y vendavales.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 2, "name": "X-Men", "description": "Mutantes que protegen a un mundo que los teme.", "universe": "Marvel", "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png", "banner": "", "headquarters": "Instituto Xavier" }
+      {
+        "id": 2,
+        "name": "X-Men",
+        "description": "Mutantes que protegen a un mundo que los teme.",
+        "universe": "Marvel",
+        "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png",
+        "banner": "",
+        "headquarters": "Instituto Xavier"
+      }
     ]
   },
   {
-    "id": 24, "name": "Pícara", "realName": "Anna Marie",
+    "id": 24,
+    "name": "Pícara",
+    "realName": "Anna Marie",
     "description": "Mutante que absorbe los poderes y recuerdos de quien toca. Por eso evita todo contacto físico.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/bb/Uncanny_X-Men_Vol_6_34_Rogue_Virgin_Variant.jpg/revision/latest?cb=20260824062624", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Avengers Annual #10 (1981)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "X-Man", "baseOfOperations": "Instituto Xavier, Westchester",
-    "aliases": ["Rogue", "Anna Raven"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/bb/Uncanny_X-Men_Vol_6_34_Rogue_Virgin_Variant.jpg/revision/latest?cb=20260824062624",
+    "video": "",
+    "logo": "",
+    "banner": "https://img.wattpad.com/0442997c2cc72d60ec0eb338bd65bf56049318c0/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f75666b75536a633736716a3275673d3d2d3936383633313638322e313633663163623938383965643531393433343537363733303333322e676966",
+    "firstAppearance": "Avengers Annual #10 (1981)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "X-Man",
+    "baseOfOperations": "Instituto Xavier, Westchester",
+    "aliases": [
+      "Rogue",
+      "Anna Raven"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 2, "name": "X-Men", "description": "Mutantes que protegen a un mundo que los teme.", "universe": "Marvel", "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png", "banner": "", "headquarters": "Instituto Xavier" }
+      {
+        "id": 2,
+        "name": "X-Men",
+        "description": "Mutantes que protegen a un mundo que los teme.",
+        "universe": "Marvel",
+        "logo": "https://logos-world.net/wp-content/uploads/2022/02/X-Men-Logo-2002-2018.png",
+        "banner": "",
+        "headquarters": "Instituto Xavier"
+      }
     ]
   },
   {
-    "id": 25, "name": "Venom", "realName": "Eddie Brock",
+    "id": 25,
+    "name": "Venom",
+    "realName": "Eddie Brock",
     "description": "Periodista unido a un simbionte alienígena que amplifica su fuerza y su violencia. Actúa como justiciero brutal.",
-    "universe": "Marvel", "characterType": "AntiHero",
-    "image": "https://miro.medium.com/1*kSaD6ECgAcl4LFqVO-O3kQ.jpeg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Amazing Spider-Man #300 (1988)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Periodista, justiciero", "baseOfOperations": "San Francisco, Nueva York",
-    "aliases": ["Eddie Brock", "Protector Letal"],
+    "universe": "Marvel",
+    "characterType": "AntiHero",
+    "image": "https://miro.medium.com/1*kSaD6ECgAcl4LFqVO-O3kQ.jpeg",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/5c/e0/98/5ce098c9a0853409ad855b27b0ad1415.gif",
+    "firstAppearance": "The Amazing Spider-Man #300 (1988)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Periodista, justiciero",
+    "baseOfOperations": "San Francisco, Nueva York",
+    "aliases": [
+      "Eddie Brock",
+      "Protector Letal"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 4, "name": "Trepar muros", "description": "Se adhiere a cualquier superficie.", "icon": "" },
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 4,
+        "name": "Trepar muros",
+        "description": "Se adhiere a cualquier superficie.",
+        "icon": ""
+      },
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 26, "name": "Duende Verde", "realName": "Norman Osborn",
+    "id": 26,
+    "name": "Duende Verde",
+    "realName": "Norman Osborn",
     "description": "Industrial brillante cuya mente se quiebra tras un experimento. Es el archienemigo clásico de Spider-Man.",
-    "universe": "Marvel", "characterType": "Villain",
-    "image": "https://i.pinimg.com/originals/a8/5d/0a/a85d0a7c636b79270c948643c5f7226f.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Amazing Spider-Man #14 (1964)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Industrial, criminal", "baseOfOperations": "Nueva York",
-    "aliases": ["Green Goblin", "Norman Osborn"],
+    "universe": "Marvel",
+    "characterType": "Villain",
+    "image": "https://i.pinimg.com/originals/a8/5d/0a/a85d0a7c636b79270c948643c5f7226f.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/4e/74/70/4e7470bfa73fa2a1a70cba575b297073.gif",
+    "firstAppearance": "The Amazing Spider-Man #14 (1964)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Industrial, criminal",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Green Goblin",
+      "Norman Osborn"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 27, "name": "Doctor Doom", "realName": "Victor von Doom",
+    "id": 27,
+    "name": "Doctor Doom",
+    "realName": "Victor von Doom",
     "description": "Monarca de Latveria, genio científico y hechicero. Rival eterno de los Cuatro Fantásticos.",
-    "universe": "Marvel", "characterType": "Villain",
-    "image": "https://miro.medium.com/1*R6A6IJciB0wrwdHA3qYxWA.jpeg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Fantastic Four #5 (1961)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Monarca de Latveria", "baseOfOperations": "Latveria",
-    "aliases": ["Victor von Doom", "Doctor Muerte"],
+    "universe": "Marvel",
+    "characterType": "Villain",
+    "image": "https://miro.medium.com/1*R6A6IJciB0wrwdHA3qYxWA.jpeg",
+    "video": "",
+    "logo": "",
+    "banner": "https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyM3pjZ2VjcWo0a2s4OGdoeGh0Znl6MzZwZnE0bHU2dHQwZnR2ZzJqdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KT00yvFMOriW8k99KU/giphy-downsized-large.gif",
+    "firstAppearance": "Fantastic Four #5 (1961)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Monarca de Latveria",
+    "baseOfOperations": "Latveria",
+    "aliases": [
+      "Victor von Doom",
+      "Doctor Muerte"
+    ],
     "powers": [
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 21, "name": "Magia", "description": "Domina hechizos, portales y otras dimensiones.", "icon": "" },
-      { "id": 6, "name": "Armadura tecnológica", "description": "Traje con vuelo, armas y fuerza aumentada.", "icon": "" }
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 21,
+        "name": "Magia",
+        "description": "Domina hechizos, portales y otras dimensiones.",
+        "icon": ""
+      },
+      {
+        "id": 6,
+        "name": "Armadura tecnológica",
+        "description": "Traje con vuelo, armas y fuerza aumentada.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 28, "name": "Mr. Fantástico", "realName": "Reed Richards",
+    "id": 28,
+    "name": "Mr. Fantástico",
+    "realName": "Reed Richards",
     "description": "Científico líder de los Cuatro Fantásticos. Su cuerpo se estira como goma.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://media.craiyon.com/2025-06-20/EjgVmiMRRxOKoaXIv48j-A.webp", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Fantastic Four #1 (1961)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Científico, explorador", "baseOfOperations": "Edificio Baxter, Nueva York",
-    "aliases": ["Mister Fantastic", "Reed Richards"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://media.craiyon.com/2025-06-20/EjgVmiMRRxOKoaXIv48j-A.webp",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/b3004e10feb8d67e00320d0132c7e4f1/580f672811efc9ff-29/s540x810/fa9c0fe7ebf737c4ce22ee2fded639bf41c10e4f.gifv",
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Científico, explorador",
+    "baseOfOperations": "Edificio Baxter, Nueva York",
+    "aliases": [
+      "Mister Fantastic",
+      "Reed Richards"
+    ],
     "powers": [
-      { "id": 24, "name": "Elasticidad", "description": "Estira, deforma y moldea su cuerpo a voluntad.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 24,
+        "name": "Elasticidad",
+        "description": "Estira, deforma y moldea su cuerpo a voluntad.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 7, "name": "Los 4 Fantásticos", "description": "La primera familia de superhéroes de Marvel.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Edificio Baxter" }
+      {
+        "id": 7,
+        "name": "Los 4 Fantásticos",
+        "description": "La primera familia de superhéroes de Marvel.",
+        "universe": "Marvel",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Edificio Baxter"
+      }
     ]
   },
   {
-    "id": 29, "name": "La Cosa", "realName": "Ben Grimm",
+    "id": 29,
+    "name": "La Cosa",
+    "realName": "Ben Grimm",
     "description": "Piloto de pruebas transformado en un coloso de roca anaranjada. Es el corazón de los Cuatro Fantásticos.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YH0FPxBX8rG8z0spDOzIIqXQGtpfLFxTSmSoSQHfzasw9ah17WLKrXw&s=10", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Fantastic Four #1 (1961)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Piloto, aventurero", "baseOfOperations": "Edificio Baxter, Nueva York",
-    "aliases": ["The Thing", "Ben Grimm", "Ojos Azules"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YH0FPxBX8rG8z0spDOzIIqXQGtpfLFxTSmSoSQHfzasw9ah17WLKrXw&s=10",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/e2e5127802c8ff85f38af786e5783ead/627835633d755004-dc/s540x810/185538b939f93ed5ba6764b0714aafcd154ad8f5.gifv",
+    "firstAppearance": "Fantastic Four #1 (1961)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Piloto, aventurero",
+    "baseOfOperations": "Edificio Baxter, Nueva York",
+    "aliases": [
+      "The Thing",
+      "Ben Grimm",
+      "Ojos Azules"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 7, "name": "Los 4 Fantásticos", "description": "La primera familia de superhéroes de Marvel.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Edificio Baxter" }
+      {
+        "id": 7,
+        "name": "Los 4 Fantásticos",
+        "description": "La primera familia de superhéroes de Marvel.",
+        "universe": "Marvel",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Edificio Baxter"
+      }
     ]
   },
   {
-    "id": 30, "name": "Daredevil", "realName": "Matt Murdock",
+    "id": 30,
+    "name": "Daredevil",
+    "realName": "Matt Murdock",
     "description": "Abogado ciego de Hell's Kitchen cuyos demás sentidos son sobrehumanos. De día defiende en los tribunales y de noche patrulla las calles.",
-    "universe": "Marvel", "characterType": "Vigilante",
-    "image": "https://static.wikia.nocookie.net/marveldatabase/images/f/f4/Daredevil_Vol_7_14_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20240128082746", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Daredevil #1 (1964)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Abogado, justiciero", "baseOfOperations": "Hell's Kitchen, Nueva York",
-    "aliases": ["El Hombre sin Miedo", "Matt Murdock"],
+    "universe": "Marvel",
+    "characterType": "Vigilante",
+    "image": "https://static.wikia.nocookie.net/marveldatabase/images/f/f4/Daredevil_Vol_7_14_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20240128082746",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/71/74/45/7174457e01de03bfd6d6744f57280d6f.gif",
+    "firstAppearance": "Daredevil #1 (1964)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Abogado, justiciero",
+    "baseOfOperations": "Hell's Kitchen, Nueva York",
+    "aliases": [
+      "El Hombre sin Miedo",
+      "Matt Murdock"
+    ],
     "powers": [
-      { "id": 10, "name": "Sentidos agudizados", "description": "Olfato, oído y vista sobrehumanos.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" }
+      {
+        "id": 10,
+        "name": "Sentidos agudizados",
+        "description": "Olfato, oído y vista sobrehumanos.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 31, "name": "Punisher", "realName": "Frank Castle",
+    "id": 31,
+    "name": "Punisher",
+    "realName": "Frank Castle",
     "description": "Ex marine que declara la guerra al crimen tras el asesinato de su familia. No se limita a detener a los criminales.",
-    "universe": "Marvel", "characterType": "AntiHero",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIs6QCecT2I5reiUmiWKPY5zW1OUDsaLKGlr3QtmZoxXkXUZlI5w_BipkB&s=10", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Amazing Spider-Man #129 (1974)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Justiciero, ex militar", "baseOfOperations": "Nueva York",
-    "aliases": ["El Castigador", "Frank Castle"],
+    "universe": "Marvel",
+    "characterType": "AntiHero",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIs6QCecT2I5reiUmiWKPY5zW1OUDsaLKGlr3QtmZoxXkXUZlI5w_BipkB&s=10",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/a29122418587ccd219d4462c8af4f1cf/tumblr_o4duu56WjT1uewdrio2_540.gifv",
+    "firstAppearance": "The Amazing Spider-Man #129 (1974)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Justiciero, ex militar",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "El Castigador",
+      "Frank Castle"
+    ],
     "powers": [
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 32, "name": "Ant-Man", "realName": "Scott Lang",
+    "id": 32,
+    "name": "Ant-Man",
+    "realName": "Scott Lang",
     "description": "Ladrón reformado que usa un traje capaz de reducir su tamaño y aumentar su fuerza, además de comunicarse con hormigas.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/heroes-and-villain/images/c/c2/Ant-Man_Scott_Lang.jpg/revision/latest?cb=20220209185125", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Tales to Astonish #27 (1962)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Ingeniero, ex ladrón", "baseOfOperations": "San Francisco",
-    "aliases": ["Hombre Hormiga", "Scott Lang"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/heroes-and-villain/images/c/c2/Ant-Man_Scott_Lang.jpg/revision/latest?cb=20220209185125",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/a8311fc76b505f6a1ef4c9264f536e7a/cfda80611d8077f8-69/s540x810/d3501b33f3227a1d81b7ab7cdb359abd2148658f.gifv",
+    "firstAppearance": "Tales to Astonish #27 (1962)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Ingeniero, ex ladrón",
+    "baseOfOperations": "San Francisco",
+    "aliases": [
+      "Hombre Hormiga",
+      "Scott Lang"
+    ],
     "powers": [
-      { "id": 24, "name": "Elasticidad", "description": "Estira, deforma y moldea su cuerpo a voluntad.", "icon": "" },
-      { "id": 6, "name": "Armadura tecnológica", "description": "Traje con vuelo, armas y fuerza aumentada.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 24,
+        "name": "Elasticidad",
+        "description": "Estira, deforma y moldea su cuerpo a voluntad.",
+        "icon": ""
+      },
+      {
+        "id": 6,
+        "name": "Armadura tecnológica",
+        "description": "Traje con vuelo, armas y fuerza aumentada.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 1, "name": "Vengadores", "description": "El grupo de héroes más poderoso de la Tierra.", "universe": "Marvel", "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png", "banner": "", "headquarters": "Torre de los Vengadores" }
+      {
+        "id": 1,
+        "name": "Vengadores",
+        "description": "El grupo de héroes más poderoso de la Tierra.",
+        "universe": "Marvel",
+        "logo": "https://adhesivosnatos.com/wp-content/uploads/2018/06/pegatina-avengers-logo-vengadores.png",
+        "banner": "",
+        "headquarters": "Torre de los Vengadores"
+      }
     ]
   },
   {
-    "id": 33, "name": "Star-Lord", "realName": "Peter Quill",
+    "id": 33,
+    "name": "Star-Lord",
+    "realName": "Peter Quill",
     "description": "Aventurero terrestre criado en el espacio y líder de los Guardianes de la Galaxia. Combina carisma, pistolas y mucha suerte.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://kingscomics.com/cdn/shop/products/legendary-star-lord-5-by-marvel-comics.jpg?v=1706157968&width=1200", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Marvel Preview #4 (1976)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Aventurero espacial", "baseOfOperations": "Espacio exterior",
-    "aliases": ["Peter Quill", "Rey Dragón"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://kingscomics.com/cdn/shop/products/legendary-star-lord-5-by-marvel-comics.jpg?v=1706157968&width=1200",
+    "video": "",
+    "logo": "",
+    "banner": "https://img.wattpad.com/8e2e5c1f9bc3a8a6240d09fe25be5302ffff8e58/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f39795f666f7274653737746c36773d3d2d3734373831313631362e313561613134313334613838636362323237303234363536313233382e676966",
+    "firstAppearance": "Marvel Preview #4 (1976)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Aventurero espacial",
+    "baseOfOperations": "Espacio exterior",
+    "aliases": [
+      "Peter Quill",
+      "Rey Dragón"
+    ],
     "powers": [
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 8, "name": "Guardianes de la Galaxia", "description": "Banda de inadaptados que protege el cosmos.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Knowhere" }
+      {
+        "id": 8,
+        "name": "Guardianes de la Galaxia",
+        "description": "Banda de inadaptados que protege el cosmos.",
+        "universe": "Marvel",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Knowhere"
+      }
     ]
   },
   {
-    "id": 34, "name": "Groot", "realName": "Groot",
+    "id": 34,
+    "name": "Groot",
+    "realName": "Groot",
     "description": "Extraterrestre con forma de árbol de vocabulario muy limitado pero lealtad inquebrantable. Regenera su cuerpo y puede crecer hasta tamaños enormes.",
-    "universe": "Marvel", "characterType": "Hero",
-    "image": "https://www.superherotoystore.com/cdn/shop/articles/Groot_1120x.jpg?v=1472800092", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Tales to Astonish #13 (1960)", "publisher": "Marvel Comics", "isAlive": true,
-    "occupation": "Guardián de la Galaxia", "baseOfOperations": "Knowhere",
-    "aliases": ["Yo soy Groot", "Colossus of Flora"],
+    "universe": "Marvel",
+    "characterType": "Hero",
+    "image": "https://www.superherotoystore.com/cdn/shop/articles/Groot_1120x.jpg?v=1472800092",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/d8/a0/22/d8a022f96d44b6ea6e70d62c3e876e26.gif",
+    "firstAppearance": "Tales to Astonish #13 (1960)",
+    "publisher": "Marvel Comics",
+    "isAlive": true,
+    "occupation": "Guardián de la Galaxia",
+    "baseOfOperations": "Knowhere",
+    "aliases": [
+      "Yo soy Groot",
+      "Colossus of Flora"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
-      { "id": 24, "name": "Elasticidad", "description": "Estira, deforma y moldea su cuerpo a voluntad.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      },
+      {
+        "id": 24,
+        "name": "Elasticidad",
+        "description": "Estira, deforma y moldea su cuerpo a voluntad.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 8, "name": "Guardianes de la Galaxia", "description": "Banda de inadaptados que protege el cosmos.", "universe": "Marvel", "logo": "", "banner": "", "headquarters": "Knowhere" }
+      {
+        "id": 8,
+        "name": "Guardianes de la Galaxia",
+        "description": "Banda de inadaptados que protege el cosmos.",
+        "universe": "Marvel",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Knowhere"
+      }
     ]
   },
   {
-    "id": 35, "name": "Wonder Woman", "realName": "Diana Prince",
+    "id": 35,
+    "name": "Wonder Woman",
+    "realName": "Diana Prince",
     "description": "Princesa amazona de Temiscira y embajadora de paz. Combate con fuerza divina y el Lazo de la Verdad.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://preview.redd.it/wonder-woman-now-has-her-own-editorial-group-at-dc-comics-v0-cdjcc2utk9qe1.jpeg?auto=webp&s=43b5f0a164d0a3736472e0fb1cfcb0188e71b253", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "All Star Comics #8 (1941)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Embajadora, guerrera", "baseOfOperations": "Temiscira, Washington D. C.",
-    "aliases": ["Diana de Temiscira", "La Mujer Maravilla", "Diana Prince"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://preview.redd.it/wonder-woman-now-has-her-own-editorial-group-at-dc-comics-v0-cdjcc2utk9qe1.jpeg?auto=webp&s=43b5f0a164d0a3736472e0fb1cfcb0188e71b253",
+    "video": "",
+    "logo": "",
+    "banner": "https://giffiles.alphacoders.com/155/15573.gif",
+    "firstAppearance": "All Star Comics #8 (1941)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Embajadora, guerrera",
+    "baseOfOperations": "Temiscira, Washington D. C.",
+    "aliases": [
+      "Diana de Temiscira",
+      "La Mujer Maravilla",
+      "Diana Prince"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 33, "name": "Lazo de la Verdad", "description": "Obliga a decir la verdad a quien lo toca.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 33,
+        "name": "Lazo de la Verdad",
+        "description": "Obliga a decir la verdad a quien lo toca.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 36, "name": "Flash", "realName": "Barry Allen",
+    "id": 36,
+    "name": "Flash",
+    "realName": "Barry Allen",
     "description": "Científico forense que se convierte en el hombre más rápido del mundo al conectarse con la Fuerza de la Velocidad.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_kqObxfEV0RQJB554DK0ea4t8Z8-M1XfzW_oNxhFpN_-n7qgt_32nqY&s=10", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Showcase #4 (1956)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Científico forense", "baseOfOperations": "Ciudad Central",
-    "aliases": ["El Hombre más Rápido del Mundo", "Barry Allen"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_kqObxfEV0RQJB554DK0ea4t8Z8-M1XfzW_oNxhFpN_-n7qgt_32nqY&s=10",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.redd.it/qoq85r7kxith1.gif",
+    "firstAppearance": "Showcase #4 (1956)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Científico forense",
+    "baseOfOperations": "Ciudad Central",
+    "aliases": [
+      "El Hombre más Rápido del Mundo",
+      "Barry Allen"
+    ],
     "powers": [
-      { "id": 18, "name": "Supervelocidad", "description": "Se mueve y piensa a velocidades extremas.", "icon": "" },
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" }
+      {
+        "id": 18,
+        "name": "Supervelocidad",
+        "description": "Se mueve y piensa a velocidades extremas.",
+        "icon": ""
+      },
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 37, "name": "Aquaman", "realName": "Arthur Curry",
+    "id": 37,
+    "name": "Aquaman",
+    "realName": "Arthur Curry",
     "description": "Rey de Atlantis, mitad humano y mitad atlante, con dominio absoluto sobre los océanos.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://i.redd.it/h9aqdi9tep1e1.jpeg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "More Fun Comics #73 (1941)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Rey de Atlantis", "baseOfOperations": "Atlantis",
-    "aliases": ["Rey de Atlantis", "Arthur Curry"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://i.redd.it/h9aqdi9tep1e1.jpeg",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/e2d638a62e7d8a30e14882f923fd8d5f/tumblr_prk3voibU91xlv8m3o1_540.gif",
+    "firstAppearance": "More Fun Comics #73 (1941)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Rey de Atlantis",
+    "baseOfOperations": "Atlantis",
+    "aliases": [
+      "Rey de Atlantis",
+      "Arthur Curry"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 30, "name": "Comunicación marina", "description": "Se comunica y controla a la vida marina.", "icon": "" },
-      { "id": 31, "name": "Respiración acuática", "description": "Vive y respira bajo el agua sin límite.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 30,
+        "name": "Comunicación marina",
+        "description": "Se comunica y controla a la vida marina.",
+        "icon": ""
+      },
+      {
+        "id": 31,
+        "name": "Respiración acuática",
+        "description": "Vive y respira bajo el agua sin límite.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 38, "name": "Linterna Verde", "realName": "Hal Jordan",
+    "id": 38,
+    "name": "Linterna Verde",
+    "realName": "Hal Jordan",
     "description": "Piloto de pruebas elegido por un anillo de poder alimentado por la fuerza de voluntad. Miembro del Cuerpo de Linternas Verdes.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://i.redd.it/bzpewnl0c8ue1.jpeg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Showcase #22 (1959)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Piloto, Linterna Verde", "baseOfOperations": "Ciudad Costera, Oa",
-    "aliases": ["Green Lantern", "Hal Jordan"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://i.redd.it/bzpewnl0c8ue1.jpeg",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/b9/06/9c/b9069cdcd21cacbdc0669e79263c386a.gif",
+    "firstAppearance": "Showcase #22 (1959)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Piloto, Linterna Verde",
+    "baseOfOperations": "Ciudad Costera, Oa",
+    "aliases": [
+      "Green Lantern",
+      "Hal Jordan"
+    ],
     "powers": [
-      { "id": 32, "name": "Anillo de poder", "description": "Crea construcciones de energía verde con la voluntad.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" }
+      {
+        "id": 32,
+        "name": "Anillo de poder",
+        "description": "Crea construcciones de energía verde con la voluntad.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 9, "name": "Cuerpo de Linternas Verdes", "description": "Policía intergaláctica del universo.", "universe": "DC", "logo": "", "banner": "", "headquarters": "Oa" },
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 9,
+        "name": "Cuerpo de Linternas Verdes",
+        "description": "Policía intergaláctica del universo.",
+        "universe": "DC",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Oa"
+      },
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
   {
-    "id": 39, "name": "Harley Quinn", "realName": "Harleen Quinzel",
+    "id": 39,
+    "name": "Harley Quinn",
+    "realName": "Harleen Quinzel",
     "description": "Psiquiatra de Arkham que se enamora del Joker y se convierte en una criminal impredecible, más tarde en antiheroína.",
-    "universe": "DC", "characterType": "AntiHero",
-    "image": "https://i.redd.it/nkgz6h4tq1kh1.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Batman: The Animated Series (1992)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Psiquiatra, criminal", "baseOfOperations": "Ciudad Gótica",
-    "aliases": ["Dra. Harleen Quinzel", "Arlequina"],
+    "universe": "DC",
+    "characterType": "AntiHero",
+    "image": "https://i.redd.it/nkgz6h4tq1kh1.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/33/9f/cc/339fcc3cc4b66d1c67d4a70c66f5e5fc.gif",
+    "firstAppearance": "Batman: The Animated Series (1992)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Psiquiatra, criminal",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": [
+      "Dra. Harleen Quinzel",
+      "Arlequina"
+    ],
     "powers": [
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 11, "name": "Escuadrón Suicida", "description": "Criminales reclutados para misiones imposibles.", "universe": "DC", "logo": "", "banner": "", "headquarters": "Belle Reve" }
+      {
+        "id": 11,
+        "name": "Escuadrón Suicida",
+        "description": "Criminales reclutados para misiones imposibles.",
+        "universe": "DC",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Belle Reve"
+      }
     ]
   },
   {
-    "id": 40, "name": "Lex Luthor", "realName": "Alexander Joseph Luthor",
+    "id": 40,
+    "name": "Lex Luthor",
+    "realName": "Alexander Joseph Luthor",
     "description": "Magnate genial y archienemigo de Superman. Está convencido de que la humanidad debe prosperar sin depender de un alienígena.",
-    "universe": "DC", "characterType": "Villain",
-    "image": "https://i.redd.it/axeef9k4lvsc1.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Action Comics #23 (1940)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Empresario, científico", "baseOfOperations": "Metrópolis",
-    "aliases": ["Alexander Luthor", "El Hombre más Rico de Metrópolis"],
+    "universe": "DC",
+    "characterType": "Villain",
+    "image": "https://i.redd.it/axeef9k4lvsc1.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://api.memes.co.in/media/memesvideo/gif/Lex_Luthor.gif",
+    "firstAppearance": "Action Comics #23 (1940)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Empresario, científico",
+    "baseOfOperations": "Metrópolis",
+    "aliases": [
+      "Alexander Luthor",
+      "El Hombre más Rico de Metrópolis"
+    ],
     "powers": [
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 6, "name": "Armadura tecnológica", "description": "Traje con vuelo, armas y fuerza aumentada.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 6,
+        "name": "Armadura tecnológica",
+        "description": "Traje con vuelo, armas y fuerza aumentada.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 41, "name": "Catwoman", "realName": "Selina Kyle",
+    "id": 41,
+    "name": "Catwoman",
+    "realName": "Selina Kyle",
     "description": "Ladrona experta con un código moral propio. Mantiene una relación ambigua con Batman.",
-    "universe": "DC", "characterType": "AntiHero",
-    "image": "https://creator.nightcafe.studio/jobs/jsmbmIAlZEbns077oxOW/jsmbmIAlZEbns077oxOW--1--0zl4w.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Batman #1 (1940)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Ladrona", "baseOfOperations": "Ciudad Gótica",
-    "aliases": ["Selina Kyle", "La Gata"],
+    "universe": "DC",
+    "characterType": "AntiHero",
+    "image": "https://creator.nightcafe.studio/jobs/jsmbmIAlZEbns077oxOW/jsmbmIAlZEbns077oxOW--1--0zl4w.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "https://64.media.tumblr.com/e17f2ba296350e262cfb703e1741bff4/c74d1aaa3cd6f7fa-08/s540x810/87de53050786f9dc6658e0c016127c7d5a67e4a5.gifv",
+    "firstAppearance": "Batman #1 (1940)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Ladrona",
+    "baseOfOperations": "Ciudad Gótica",
+    "aliases": [
+      "Selina Kyle",
+      "La Gata"
+    ],
     "powers": [
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 25, "name": "Sigilo", "description": "Se mueve sin ser detectado.", "icon": "" }
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 25,
+        "name": "Sigilo",
+        "description": "Se mueve sin ser detectado.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 42, "name": "Nightwing", "realName": "Dick Grayson",
+    "id": 42,
+    "name": "Nightwing",
+    "realName": "Dick Grayson",
     "description": "Primer Robin y protegido de Batman. Se emancipó para forjar su propio camino como héroe en Blüdhaven.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/characters-of-fiction/images/8/8a/Nightwing.png/revision/latest?cb=20220519211424", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Detective Comics #38 (1940)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Justiciero, ex acróbata", "baseOfOperations": "Blüdhaven",
-    "aliases": ["Robin", "Dick Grayson"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/characters-of-fiction/images/8/8a/Nightwing.png/revision/latest?cb=20220519211424",
+    "video": "",
+    "logo": "",
+    "banner": "https://gizmodo.com/app/uploads/2019/12/c4qcka5mlbv63wstnqsj.gif",
+    "firstAppearance": "Detective Comics #38 (1940)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Justiciero, ex acróbata",
+    "baseOfOperations": "Blüdhaven",
+    "aliases": [
+      "Robin",
+      "Dick Grayson"
+    ],
     "powers": [
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 12, "name": "Jóvenes Titanes", "description": "Jóvenes héroes que forman su propio equipo.", "universe": "DC", "logo": "", "banner": "", "headquarters": "Torre Titán" }
+      {
+        "id": 12,
+        "name": "Jóvenes Titanes",
+        "description": "Jóvenes héroes que forman su propio equipo.",
+        "universe": "DC",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Torre Titán"
+      }
     ]
   },
   {
-    "id": 43, "name": "Supergirl", "realName": "Kara Zor-El",
+    "id": 43,
+    "name": "Supergirl",
+    "realName": "Kara Zor-El",
     "description": "Prima de Superman que escapó de Krypton y llegó a la Tierra con los mismos poderes que él.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/characters-of-fiction/images/2/29/Supergirl.png/revision/latest?cb=20220605145559", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Action Comics #252 (1959)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Superheroína", "baseOfOperations": "Ciudad Nacional, Metrópolis",
-    "aliases": ["Kara Danvers", "Kara Zor-El"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/characters-of-fiction/images/2/29/Supergirl.png/revision/latest?cb=20220605145559",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/20/11/bd/2011bd292b3ac5ced8a63b0644c93887.gif",
+    "firstAppearance": "Action Comics #252 (1959)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Superheroína",
+    "baseOfOperations": "Ciudad Nacional, Metrópolis",
+    "aliases": [
+      "Kara Danvers",
+      "Kara Zor-El"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 15,
+        "name": "Visión de calor",
+        "description": "Proyecta calor intenso con los ojos.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 44, "name": "Green Arrow", "realName": "Oliver Queen",
+    "id": 44,
+    "name": "Green Arrow",
+    "realName": "Oliver Queen",
     "description": "Millonario arquero que, tras naufragar en una isla remota, regresa como justiciero a favor de los más desfavorecidos.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/marvel_dc/images/2/29/Green_Arrow_Vol_6_1_Textless_Variant.jpg/revision/latest?cb=20160617025432", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "More Fun Comics #73 (1941)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Empresario, justiciero", "baseOfOperations": "Ciudad Estrella",
-    "aliases": ["Flecha Verde", "Oliver Queen"],
+    "universe": "DC",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/marvel_dc/images/2/29/Green_Arrow_Vol_6_1_Textless_Variant.jpg/revision/latest?cb=20160617025432",
+    "video": "",
+    "logo": "",
+    "banner": "https://giffiles.alphacoders.com/146/146045.gif",
+    "firstAppearance": "More Fun Comics #73 (1941)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Empresario, justiciero",
+    "baseOfOperations": "Ciudad Estrella",
+    "aliases": [
+      "Flecha Verde",
+      "Oliver Queen"
+    ],
     "powers": [
-      { "id": 29, "name": "Arquería", "description": "Puntería casi infalible con arco y flechas especiales.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" }
+      {
+        "id": 29,
+        "name": "Arquería",
+        "description": "Puntería casi infalible con arco y flechas especiales.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
+      {
+        "id": 3,
+        "name": "Liga de la Justicia",
+        "description": "Los mayores héroes de DC unidos.",
+        "universe": "DC",
+        "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+        "banner": "",
+        "headquarters": "Atalaya"
+      }
     ]
   },
+
   {
-    "id": 45, "name": "Detective Marciano", "realName": "J'onn J'onzz",
-    "description": "Último superviviente de Marte, telépata y metamorfo. Es el corazón de la Liga de la Justicia.",
-    "universe": "DC", "characterType": "Hero",
-    "image": "https://i.redd.it/elca4weiz7ce1.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Detective Comics #225 (1955)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Detective, héroe", "baseOfOperations": "Atalaya",
-    "aliases": ["Martian Manhunter", "J'onn J'onzz"],
-    "powers": [
-      { "id": 19, "name": "Telepatía", "description": "Lee y proyecta pensamientos.", "icon": "" },
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" }
-    ],
-    "teams": [
-      { "id": 3, "name": "Liga de la Justicia", "description": "Los mayores héroes de DC unidos.", "universe": "DC", "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png", "banner": "", "headquarters": "Atalaya" }
-    ]
-  },
-  {
-    "id": 46, "name": "Darkseid", "realName": "Uxas",
+    "id": 46,
+    "name": "Darkseid",
+    "realName": "Uxas",
     "description": "Tirano de Apokolips que busca la Ecuación Antivida para someter toda la existencia. Uno de los mayores enemigos de la Liga de la Justicia.",
-    "universe": "DC", "characterType": "Villain",
-    "image": "https://i.redd.it/hfe3eve6sj6f1.png", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Superman's Pal Jimmy Olsen #134 (1970)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Tirano", "baseOfOperations": "Apokolips",
-    "aliases": ["Uxas", "Señor de Apokolips"],
+    "universe": "DC",
+    "characterType": "Villain",
+    "image": "https://i.redd.it/hfe3eve6sj6f1.png",
+    "video": "",
+    "logo": "",
+    "banner": "https://i.pinimg.com/originals/dc/a3/1c/dca31c2b9390dd52bd0c0352f6b2eabb.gif",
+    "firstAppearance": "Superman's Pal Jimmy Olsen #134 (1970)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Tirano",
+    "baseOfOperations": "Apokolips",
+    "aliases": [
+      "Uxas",
+      "Señor de Apokolips"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 15, "name": "Visión de calor", "description": "Proyecta calor intenso con los ojos.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" },
-      { "id": 23, "name": "Poder cósmico", "description": "Absorbe y proyecta energía a escala estelar.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 15,
+        "name": "Visión de calor",
+        "description": "Proyecta calor intenso con los ojos.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      },
+      {
+        "id": 23,
+        "name": "Poder cósmico",
+        "description": "Absorbe y proyecta energía a escala estelar.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 47, "name": "Deathstroke", "realName": "Slade Wilson",
+    "id": 47,
+    "name": "Deathstroke",
+    "realName": "Slade Wilson",
     "description": "Mercenario con capacidades mejoradas y uno de los combatientes más letales del universo DC.",
-    "universe": "DC", "characterType": "Mercenary",
-    "image": "https://www.superherotoystore.com/cdn/shop/articles/Deathstroke_Tony_Daniel_1349x.jpg?v=1471952606", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "New Teen Titans #2 (1980)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Mercenario", "baseOfOperations": "Variable",
-    "aliases": ["Slade Wilson", "El Exterminador"],
+    "universe": "DC",
+    "characterType": "Mercenary",
+    "image": "https://www.superherotoystore.com/cdn/shop/articles/Deathstroke_Tony_Daniel_1349x.jpg?v=1471952606",
+    "video": "",
+    "logo": "",
+    "banner": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBv7M3z1wJkyenWHyVz35vUqsAv4KK8YSPvCbRmX0Ogw5bKOsnOAIGONxKQO-XZFkBcx7x7JGU_rofmp0fOg5EsdY50qWRil0BW3mZJJLMIo8y4kszj-2itkpdi-gURWr4fZv3/s280/strolekbest.gif",
+    "firstAppearance": "New Teen Titans #2 (1980)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Mercenario",
+    "baseOfOperations": "Variable",
+    "aliases": [
+      "Slade Wilson",
+      "El Exterminador"
+    ],
     "powers": [
-      { "id": 2, "name": "Factor de curación", "description": "Regenera heridas casi al instante.", "icon": "" },
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" }
+      {
+        "id": 2,
+        "name": "Factor de curación",
+        "description": "Regenera heridas casi al instante.",
+        "icon": ""
+      },
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      }
     ],
     "teams": []
   },
   {
-    "id": 48, "name": "Billy Butcher", "realName": "William Butcher",
+    "id": 48,
+    "name": "Billy Butcher",
+    "realName": "William Butcher",
     "description": "Ex agente británico y líder de The Boys. Odia a los superhéroes con una obsesión que roza lo patológico.",
-    "universe": "TheBoys", "characterType": "AntiHero",
-    "image": "https://i.redd.it/s2wupav1u7x91.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Boys #1 (2006)", "publisher": "Dynamite Entertainment", "isAlive": true,
-    "occupation": "Ex agente, líder de The Boys", "baseOfOperations": "Nueva York",
-    "aliases": ["Butcher", "El Carnicero"],
+    "universe": "TheBoys",
+    "characterType": "AntiHero",
+    "image": "https://i.redd.it/s2wupav1u7x91.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Boys #1 (2006)",
+    "publisher": "Dynamite Entertainment",
+    "isAlive": true,
+    "occupation": "Ex agente, líder de The Boys",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Butcher",
+      "El Carnicero"
+    ],
     "powers": [
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" }
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 13, "name": "The Boys", "description": "Equipo clandestino que vigila a los superhéroes.", "universe": "TheBoys", "logo": "", "banner": "", "headquarters": "Variable" }
+      {
+        "id": 13,
+        "name": "The Boys",
+        "description": "Equipo clandestino que vigila a los superhéroes.",
+        "universe": "TheBoys",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Variable"
+      }
     ]
   },
   {
-    "id": 49, "name": "Starlight", "realName": "Annie January",
+    "id": 49,
+    "name": "Starlight",
+    "realName": "Annie January",
     "description": "Joven heroína idealista que entra en Los Siete y descubre la corrupción detrás de la imagen pública de Vought.",
-    "universe": "TheBoys", "characterType": "Hero",
-    "image": "https://i.pinimg.com/736x/08/ac/84/08ac8417e1ac4d8438143da98bad04c8.jpg", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "The Boys (2006)", "publisher": "Dynamite Entertainment", "isAlive": true,
-    "occupation": "Superheroína", "baseOfOperations": "Torre Vought, Nueva York",
-    "aliases": ["Annie January", "Hughie's friend"],
+    "universe": "TheBoys",
+    "characterType": "Hero",
+    "image": "https://i.pinimg.com/736x/08/ac/84/08ac8417e1ac4d8438143da98bad04c8.jpg",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "The Boys (2006)",
+    "publisher": "Dynamite Entertainment",
+    "isAlive": true,
+    "occupation": "Superheroína",
+    "baseOfOperations": "Torre Vought, Nueva York",
+    "aliases": [
+      "Annie January",
+      "Hughie's friend"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 26, "name": "Control de luz", "description": "Genera y proyecta luz y energía.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 26,
+        "name": "Control de luz",
+        "description": "Genera y proyecta luz y energía.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 4, "name": "Los Siete", "description": "Los superhéroes más famosos de Vought International.", "universe": "TheBoys", "logo": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1F83G8C2ARO7P/6e23e97bf55c729ee81a8d1c71fd5724.w800.h800.jpg", "banner": "", "headquarters": "Torre Vought" }
+      {
+        "id": 4,
+        "name": "Los Siete",
+        "description": "Los superhéroes más famosos de Vought International.",
+        "universe": "TheBoys",
+        "logo": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1F83G8C2ARO7P/6e23e97bf55c729ee81a8d1c71fd5724.w800.h800.jpg",
+        "banner": "",
+        "headquarters": "Torre Vought"
+      }
     ]
   },
   {
-    "id": 50, "name": "Omni-Man", "realName": "Nolan Grayson",
+    "id": 50,
+    "name": "Omni-Man",
+    "realName": "Nolan Grayson",
     "description": "Viltrumita que protege la Tierra mientras oculta una misión que cambia su relación con su hijo Mark.",
-    "universe": "Invincible", "characterType": "AntiHero",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXwF2ym0yHP3qvWhuHtARTa-Hsr4ZdQaaLvFhmyiob-3ypUwBsap6EKc&s=10", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Invincible #1 (2003)", "publisher": "Image Comics", "isAlive": true,
-    "occupation": "Superhéroe, soldado viltrumita", "baseOfOperations": "Chicago",
-    "aliases": ["Nolan Grayson", "Omni-Man"],
+    "universe": "Invincible",
+    "characterType": "AntiHero",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXwF2ym0yHP3qvWhuHtARTa-Hsr4ZdQaaLvFhmyiob-3ypUwBsap6EKc&s=10",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Invincible #1 (2003)",
+    "publisher": "Image Comics",
+    "isAlive": true,
+    "occupation": "Superhéroe, soldado viltrumita",
+    "baseOfOperations": "Chicago",
+    "aliases": [
+      "Nolan Grayson",
+      "Omni-Man"
+    ],
     "powers": [
-      { "id": 1, "name": "Superfuerza", "description": "Fuerza muy superior a la humana.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" },
-      { "id": 12, "name": "Invulnerabilidad", "description": "Resiste daños que matarían a cualquiera.", "icon": "" }
+      {
+        "id": 1,
+        "name": "Superfuerza",
+        "description": "Fuerza muy superior a la humana.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      },
+      {
+        "id": 12,
+        "name": "Invulnerabilidad",
+        "description": "Resiste daños que matarían a cualquiera.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 5, "name": "Guardianes del Globo", "description": "Equipo de superhéroes que protege la Tierra.", "universe": "Invincible", "logo": "", "banner": "", "headquarters": "Guardians Headquarters" }
+      {
+        "id": 5,
+        "name": "Guardianes del Globo",
+        "description": "Equipo de superhéroes que protege la Tierra.",
+        "universe": "Invincible",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Guardians Headquarters"
+      }
     ]
   },
   {
-    "id": 51, "name": "Atom Eve", "realName": "Samantha Eve Wilkins",
+    "id": 51,
+    "name": "Atom Eve",
+    "realName": "Samantha Eve Wilkins",
     "description": "Heroína con capacidad para reorganizar la materia a nivel atómico. Aliada de Invincible y pareja de Mark.",
-    "universe": "Invincible", "characterType": "Hero",
-    "image": "https://static.wikia.nocookie.net/comic-invincible/images/4/49/Samantha_Eve_Wilkins.png/revision/latest/scale-to-width-down/1200?cb=20250331091108", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Invincible (2003)", "publisher": "Image Comics", "isAlive": true,
-    "occupation": "Superheroína", "baseOfOperations": "Chicago",
-    "aliases": ["Samantha Eve Wilkins", "Eve"],
+    "universe": "Invincible",
+    "characterType": "Hero",
+    "image": "https://static.wikia.nocookie.net/comic-invincible/images/4/49/Samantha_Eve_Wilkins.png/revision/latest/scale-to-width-down/1200?cb=20250331091108",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Invincible (2003)",
+    "publisher": "Image Comics",
+    "isAlive": true,
+    "occupation": "Superheroína",
+    "baseOfOperations": "Chicago",
+    "aliases": [
+      "Samantha Eve Wilkins",
+      "Eve"
+    ],
     "powers": [
-      { "id": 16, "name": "Manipulación de la materia", "description": "Controla la materia a nivel atómico.", "icon": "" },
-      { "id": 5, "name": "Vuelo", "description": "Capacidad de volar a gran velocidad.", "icon": "" }
+      {
+        "id": 16,
+        "name": "Manipulación de la materia",
+        "description": "Controla la materia a nivel atómico.",
+        "icon": ""
+      },
+      {
+        "id": 5,
+        "name": "Vuelo",
+        "description": "Capacidad de volar a gran velocidad.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 5, "name": "Guardianes del Globo", "description": "Equipo de superhéroes que protege la Tierra.", "universe": "Invincible", "logo": "", "banner": "", "headquarters": "Guardians Headquarters" }
+      {
+        "id": 5,
+        "name": "Guardianes del Globo",
+        "description": "Equipo de superhéroes que protege la Tierra.",
+        "universe": "Invincible",
+        "logo": "",
+        "banner": "",
+        "headquarters": "Guardians Headquarters"
+      }
     ]
   },
   {
-    "id": 52, "name": "Nite Owl", "realName": "Dan Dreiberg",
+    "id": 52,
+    "name": "Nite Owl",
+    "realName": "Dan Dreiberg",
     "description": "Vigilante retirado con armadura y gadgets inspirados en un búho. Se reúne con Rorschach para investigar un nuevo caso.",
-    "universe": "Watchmen", "characterType": "Vigilante",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRkgeffQa_WHvq4ChX9S3rjVOSe0Eo5dIu4u5E0nG8bA&s=10", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Watchmen #1 (1986)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Inventor, vigilante", "baseOfOperations": "Nueva York",
-    "aliases": ["Dan Dreiberg", "Búho Nocturno"],
+    "universe": "Watchmen",
+    "characterType": "Vigilante",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRkgeffQa_WHvq4ChX9S3rjVOSe0Eo5dIu4u5E0nG8bA&s=10",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Inventor, vigilante",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Dan Dreiberg",
+      "Búho Nocturno"
+    ],
     "powers": [
-      { "id": 14, "name": "Gadgets", "description": "Equipo y tecnología avanzados.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" }
+      {
+        "id": 14,
+        "name": "Gadgets",
+        "description": "Equipo y tecnología avanzados.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp", "banner": "", "headquarters": "Nueva York" }
+      {
+        "id": 6,
+        "name": "Watchmen",
+        "description": "Grupo de vigilantes enmascarados retirados por ley.",
+        "universe": "Watchmen",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp",
+        "banner": "",
+        "headquarters": "Nueva York"
+      }
     ]
   },
   {
-    "id": 53, "name": "Ozymandias", "realName": "Adrian Veidt",
+    "id": 53,
+    "name": "Ozymandias",
+    "realName": "Adrian Veidt",
     "description": "Considerado el hombre más inteligente del mundo. Idea un plan drástico para evitar la guerra nuclear.",
-    "universe": "Watchmen", "characterType": "Villain",
-    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6fec76ab-d056-4a85-8780-1ca0def7f273/de50omh-f8cffe50-f26e-458e-9e13-cc09093c98e5.jpg/v1/fill/w_699,h_1080,q_75,strp/ozymandias_by_ammotu_de50omh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiIvZi82ZmVjNzZhYi1kMDU2LTRhODUtODc4MC0xY2EwZGVmN2YyNzMvZGU1MG9taC1mOGNmZmU1MC1mMjZlLTQ1OGUtOWUxMy1jYzA5MDkzYzk4ZTUuanBnIiwid2lkdGgiOiI8PTY5OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yBxIrWoGJNA13FMZuEm_EAiCB5ZtBaTasYBSFQaAm8I", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Watchmen #1 (1986)", "publisher": "DC Comics", "isAlive": true,
-    "occupation": "Empresario, científico", "baseOfOperations": "Antártida",
-    "aliases": ["Adrian Veidt", "El Hombre más Inteligente del Mundo"],
+    "universe": "Watchmen",
+    "characterType": "Villain",
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6fec76ab-d056-4a85-8780-1ca0def7f273/de50omh-f8cffe50-f26e-458e-9e13-cc09093c98e5.jpg/v1/fill/w_699,h_1080,q_75,strp/ozymandias_by_ammotu_de50omh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiIvZi82ZmVjNzZhYi1kMDU2LTRhODUtODc4MC0xY2EwZGVmN2YyNzMvZGU1MG9taC1mOGNmZmU1MC1mMjZlLTQ1OGUtOWUxMy1jYzA5MDkzYzk4ZTUuanBnIiwid2lkdGgiOiI8PTY5OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yBxIrWoGJNA13FMZuEm_EAiCB5ZtBaTasYBSFQaAm8I",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": true,
+    "occupation": "Empresario, científico",
+    "baseOfOperations": "Antártida",
+    "aliases": [
+      "Adrian Veidt",
+      "El Hombre más Inteligente del Mundo"
+    ],
     "powers": [
-      { "id": 7, "name": "Genio intelectual", "description": "Inteligencia a nivel de genio.", "icon": "" },
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 9, "name": "Agilidad sobrehumana", "description": "Reflejos y flexibilidad fuera de lo normal.", "icon": "" }
+      {
+        "id": 7,
+        "name": "Genio intelectual",
+        "description": "Inteligencia a nivel de genio.",
+        "icon": ""
+      },
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 9,
+        "name": "Agilidad sobrehumana",
+        "description": "Reflejos y flexibilidad fuera de lo normal.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp", "banner": "", "headquarters": "Nueva York" }
+      {
+        "id": 6,
+        "name": "Watchmen",
+        "description": "Grupo de vigilantes enmascarados retirados por ley.",
+        "universe": "Watchmen",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp",
+        "banner": "",
+        "headquarters": "Nueva York"
+      }
     ]
   },
   {
-    "id": 54, "name": "El Comediante", "realName": "Edward Blake",
+    "id": 54,
+    "name": "El Comediante",
+    "realName": "Edward Blake",
     "description": "Vigilante cínico y violento que trabaja para el gobierno. Su asesinato inicia la trama de Watchmen.",
-    "universe": "Watchmen", "characterType": "AntiHero",
-    "image": "https://static.wikia.nocookie.net/doblaje/images/2/20/The_Comedian_Before_Watchmen_Jim_Lee.jpg/revision/latest?cb=20241009023219&path-prefix=es", "video": "", "logo": "", "banner": "",
-    "firstAppearance": "Watchmen #1 (1986)", "publisher": "DC Comics", "isAlive": false,
-    "occupation": "Soldado, vigilante", "baseOfOperations": "Nueva York",
-    "aliases": ["Edward Blake", "The Comedian"],
+    "universe": "Watchmen",
+    "characterType": "AntiHero",
+    "image": "https://static.wikia.nocookie.net/doblaje/images/2/20/The_Comedian_Before_Watchmen_Jim_Lee.jpg/revision/latest?cb=20241009023219&path-prefix=es",
+    "video": "",
+    "logo": "",
+    "banner": "",
+    "firstAppearance": "Watchmen #1 (1986)",
+    "publisher": "DC Comics",
+    "isAlive": false,
+    "occupation": "Soldado, vigilante",
+    "baseOfOperations": "Nueva York",
+    "aliases": [
+      "Edward Blake",
+      "The Comedian"
+    ],
     "powers": [
-      { "id": 13, "name": "Artes marciales", "description": "Maestro de múltiples disciplinas de combate.", "icon": "" },
-      { "id": 11, "name": "Maestro de armas", "description": "Experto en combate con espadas y armas de fuego.", "icon": "" }
+      {
+        "id": 13,
+        "name": "Artes marciales",
+        "description": "Maestro de múltiples disciplinas de combate.",
+        "icon": ""
+      },
+      {
+        "id": 11,
+        "name": "Maestro de armas",
+        "description": "Experto en combate con espadas y armas de fuego.",
+        "icon": ""
+      }
     ],
     "teams": [
-      { "id": 6, "name": "Watchmen", "description": "Grupo de vigilantes enmascarados retirados por ley.", "universe": "Watchmen", "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp", "banner": "", "headquarters": "Nueva York" }
+      {
+        "id": 6,
+        "name": "Watchmen",
+        "description": "Grupo de vigilantes enmascarados retirados por ley.",
+        "universe": "Watchmen",
+        "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1692981915194/nt3-pmMtr.png?auto=compress,format&format=webp",
+        "banner": "",
+        "headquarters": "Nueva York"
+      }
     ]
   }
 ]

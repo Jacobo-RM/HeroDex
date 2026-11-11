@@ -61,3 +61,65 @@ export class CharacterdleComponent implements OnInit {
     });
   }
 }
+
+
+
+
+  // {
+  //   "id": 45,
+  //   "name": "Detective Marciano",
+  //   "realName": "J'onn J'onzz",
+  //   "description": "Último superviviente de Marte, telépata y metamorfo. Es el corazón de la Liga de la Justicia.",
+  //   "universe": "DC",
+  //   "characterType": "Hero",
+  //   "image": "https://i.redd.it/elca4weiz7ce1.jpg",
+  //   "video": "",
+  //   "logo": "",
+  //   "banner": "",
+  //   "firstAppearance": "Detective Comics #225 (1955)",
+  //   "publisher": "DC Comics",
+  //   "isAlive": true,
+  //   "occupation": "Detective, héroe",
+  //   "baseOfOperations": "Atalaya",
+  //   "aliases": [
+  //     "Martian Manhunter",
+  //     "J'onn J'onzz"
+  //   ],
+  //   "powers": [
+  //     {
+  //       "id": 19,
+  //       "name": "Telepatía",
+  //       "description": "Lee y proyecta pensamientos.",
+  //       "icon": ""
+  //     },
+  //     {
+  //       "id": 1,
+  //       "name": "Superfuerza",
+  //       "description": "Fuerza muy superior a la humana.",
+  //       "icon": ""
+  //     },
+  //     {
+  //       "id": 5,
+  //       "name": "Vuelo",
+  //       "description": "Capacidad de volar a gran velocidad.",
+  //       "icon": ""
+  //     },
+  //     {
+  //       "id": 2,
+  //       "name": "Factor de curación",
+  //       "description": "Regenera heridas casi al instante.",
+  //       "icon": ""
+  //     }
+  //   ],
+  //   "teams": [
+  //     {
+  //       "id": 3,
+  //       "name": "Liga de la Justicia",
+  //       "description": "Los mayores héroes de DC unidos.",
+  //       "universe": "DC",
+  //       "logo": "https://logos-world.net/wp-content/uploads/2023/02/Justice-League-Logo.png",
+  //       "banner": "",
+  //       "headquarters": "Atalaya"
+  //     }
+  //   ]
+  // },
