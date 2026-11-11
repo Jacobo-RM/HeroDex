@@ -17,7 +17,7 @@
     />
     
     <ul *ngIf="filteredSearchList.length > 0" class="search-results">
-      <li *ngFor="let item of filteredSearchList" (click).stop="selectCharacter(item)">
+      <li *ngFor="let item of filteredSearchList" (click)="selectCharacter(item)">
         <img [src]="item.image" alt="{{item.name}}" class="dropdown-img" />
         <span>{{ item.name }}</span>
       </li>

@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { SearchItem } from '../../Models/SearchItem';
 import { ApiService } from '../../Service/app.service';
 import { CharacterCompareResult } from '../../Models/CharacterCompareResult';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-characterdle-component',
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   standalone: true,
   templateUrl: './characterdle-component.html',
   styleUrl: './characterdle-component.css',

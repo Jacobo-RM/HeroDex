@@ -4,9 +4,8 @@ import { CharacterInfoComponent } from './Components/character-info-component/ch
 import { CharacterdleComponent } from './Components/characterdle-component/characterdle-component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'characters', pathMatch: 'full'},
-    { path: 'characters', component: CharactersComponent},
-    { path: 'characters/:id', component: CharacterInfoComponent},
-    { path: 'characters/Herodle', component: CharacterdleComponent}
-
+  { path: '', redirectTo: 'characters', pathMatch: 'full' },
+  { path: 'characters', component: CharactersComponent },
+  { path: 'characters/Herodle', component: CharacterdleComponent }, 
+  { path: 'characters/:id', component: CharacterInfoComponent },
 ];
